@@ -1,0 +1,236 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --main: #0055ff;
+}
+
+:root {
+  --wrapper-padding: 1rem;
+  --wrapper-max-width: calc(90rem + var(--wrapper-padding));
+}
+
+.wrapper {
+  max-width: var(--wrapper-max-width);
+  padding-left: var(--wrapper-padding);
+  padding-right: var(--wrapper-padding);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body, input, button {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.btn {
+  cursor: pointer;
+  display: block;
+  background: lightgray;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 3rem;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+header a {
+  color: #fff;
+}
+header nav ul {
+  display: flex;
+  gap: 1rem;
+}
+
+section.hero {
+  background: var(--main);
+  color: #fff;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+section.plan .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
+}
+section.plan .grid .grid-item {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+section.plan .grid .grid-item.left ul {
+  display: flex;
+  flex-flow: column;
+  gap: 0.5rem;
+}
+section.plan .grid .grid-item.left ul li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+section.plan .grid .grid-item.left ul li .num {
+  flex-shrink: 0;
+  width: 3rem;
+  height: 3rem;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  color: var(--main);
+  border: 0.0625rem solid var(--main);
+  border-radius: 50%;
+}
+section.plan .grid .grid-item.center .num {
+  font-size: 5rem;
+  font-weight: 700;
+  color: var(--main);
+}
+section.plan .grid .grid-item.right div {
+  text-align: center;
+}
+section.plan .grid .grid-item.right .btn {
+  margin-top: 2rem;
+}
+
+section.qa ul {
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+}
+section.qa ul li.hidden .question .sign::after {
+  display: block;
+}
+section.qa ul li.hidden .answer {
+  height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+section.qa ul li .question {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: lightgrey;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+section.qa ul li .question .sign {
+  position: relative;
+  width: 1rem;
+  height: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.qa ul li .question .sign::before, section.qa ul li .question .sign::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 10%;
+  background: #000;
+}
+section.qa ul li .question .sign::after {
+  display: none;
+  transform: rotate(90deg);
+}
+section.qa ul li .answer {
+  overflow: hidden;
+  border: 0.0625rem solid lightgrey;
+  border-top: 0.5rem solid lightgrey;
+  border-radius: 0 0 0.5rem 0.5rem;
+  padding: 1.5rem;
+  margin-top: -0.5rem;
+}
+
+section.signup form {
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+}
+section.signup form .row {
+  display: grid;
+  gap: 1rem;
+}
+section.signup form .row.row1 {
+  grid-template-columns: repeat(2, 1fr);
+}
+section.signup form .row.row2 {
+  grid-template-columns: repeat(3, 1fr);
+}
+section.signup form .row.row3, section.signup form .row.row4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+section.signup form .row .input-cont {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.1rem;
+}
+
+footer {
+  background: var(--main);
+  color: #fff;
+}
+footer a {
+  color: #fff;
+}
+footer .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+footer .grid li.map {
+  overflow: hidden;
+  position: relative;
+}
+footer .grid li.map iframe {
+  position: relative;
+  width: 100%;
+  min-height: 20rem;
+  height: 100%;
+  border: none;
+}
+footer .grid li.center {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .grid li.center p {
+  text-align: center;
+}
+footer .grid li.center .email {
+  text-decoration: underline;
+}
+footer .grid li.center .flex-cont {
+  display: flex;
+  justify-content: space-between;
+}
+footer .grid li.center .flex-cont .links {
+  display: flex;
+  justify-content: center;
+  gap: 0.25rem;
+}/*# sourceMappingURL=index.css.map */

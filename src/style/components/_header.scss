@@ -1,0 +1,18 @@
+header{
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  a{
+    color: #fff;
+  }
+  nav{
+    ul{
+      display: flex;
+      gap: 1rem;
+    }
+  }
+}

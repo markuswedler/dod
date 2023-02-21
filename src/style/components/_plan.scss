@@ -1,0 +1,50 @@
+section.plan{
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
+    .grid-item{
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      justify-content: center;
+      &.left{
+        ul{
+          display: flex;
+          flex-flow: column;
+          gap: .5rem;
+          li{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            .num{
+              flex-shrink: 0;
+              width: 3rem;
+              height: 3rem;
+              display: grid;
+              place-items: center;
+              font-size: 2rem;
+              color: var(--main);
+              border: .0625rem solid var(--main);
+              border-radius: 50%;
+            }
+          }
+        }
+      }
+      &.center{
+        .num{
+          font-size: 5rem;
+          font-weight: 700;
+          color: var(--main);
+        }
+      }
+      &.right{
+        div{
+          text-align: center;
+        }
+        .btn{
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
+}
