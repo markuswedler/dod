@@ -11,7 +11,7 @@ section.plan{
         ul{
           display: flex;
           flex-flow: column;
-          gap: .5rem;
+          gap: 2rem;
           li{
             display: flex;
             align-items: center;
@@ -31,8 +31,11 @@ section.plan{
         }
       }
       &.center{
+        display: flex;
+        flex-flow: column;
+        gap: 1rem;
         .num{
-          font-size: 5rem;
+          font-size: 7.5rem;
           font-weight: 700;
           color: var(--main);
         }

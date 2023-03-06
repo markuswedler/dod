@@ -1,6 +1,23 @@
 section.hero{
   background: var(--main);
   color: #fff;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  .wrapper{
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    .cont{
+      display: flex;
+      flex-flow: column;
+      gap: .5rem;
+      h1{
+        font-size: 2.5rem;
+        margin-bottom: .75rem;
+      }
+      p{
+        max-width: 29rem;
+      }
+    }
+  }
 }

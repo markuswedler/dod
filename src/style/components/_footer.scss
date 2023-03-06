@@ -2,12 +2,12 @@ footer{
   background: var(--main);
   color: #fff;
   a{ color: #fff; }
-  .grid{
+  ul.grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    gap: 1.5rem;
     li{
-      &.map{
+      &.left{
         overflow: hidden;
         position: relative;
         iframe{
@@ -19,25 +19,33 @@ footer{
         }
       }
       &.center{
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
+        .about{
+          display: flex;
+          flex-flow: column;
+          justify-content: center;
+          gap: 1.5rem;
+          div{
+            text-align: center;
+          }
+          .flex-cont{
+            display: flex;
+            justify-content: space-between;
+            .links{
+              display: flex;
+              justify-content: center;
+              gap: .25rem;
+            }
+          }
+        }
         p{
           text-align: center;
         }
         .email{
           text-decoration: underline;
         }
-        .flex-cont{
-          display: flex;
-          justify-content: space-between;
-          .links{
-            display: flex;
-            justify-content: center;
-            gap: .25rem;
-          }
-        }
+      }
+      &.right{
+        background: #aaa;
       }
     }
   }
