@@ -216,7 +216,7 @@ section.signup form .row.row3, section.signup form .row.row4 {
 section.signup form .row .input-cont {
   display: flex;
   align-items: flex-start;
-  gap: 0.1rem;
+  gap: 0.5rem;
 }
 
 footer {

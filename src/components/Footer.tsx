@@ -21,7 +21,7 @@ const Footer = () => {
               </div>
               <div>
                 <h4>Почта</h4>
-                <a className="email" href="email:rectorat@dvfu.ru">rectorat@dvfu.ru</a>
+                <a className="email" href="mailto:rectorat@dvfu.ru">rectorat@dvfu.ru</a>
               </div>
               <div className="flex-cont">
                 <div>
