@@ -246,12 +246,12 @@ $path: "./ui/fonts/Helios/";
 
 @font-face {
     font-family: 'HeliosCompressed';
-    src: url('HeliosCompressedC.eot');
-    src: local('HeliosCompressedC'),
-        url('HeliosCompressedC.eot?#iefix') format('embedded-opentype'),
-        url('HeliosCompressedC.woff2') format('woff2'),
-        url('HeliosCompressedC.woff') format('woff'),
-        url('HeliosCompressedC.ttf') format('truetype');
+    src: url($path+'HeliosCompressedC.eot');
+    src: local($path+'HeliosCompressedC'),
+        url($path+'HeliosCompressedC.eot?#iefix') format('embedded-opentype'),
+        url($path+'HeliosCompressedC.woff2') format('woff2'),
+        url($path+'HeliosCompressedC.woff') format('woff'),
+        url($path+'HeliosCompressedC.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
@@ -260,12 +260,12 @@ $path: "./ui/fonts/Helios/";
 
 @font-face {
   font-family: 'HeliosUltraCompressed';
-  src: url('HeliosUltraCompressedC.eot');
-  src: local('HeliosUltraCompressedC'),
-      url('HeliosUltraCompressedC.eot?#iefix') format('embedded-opentype'),
-      url('HeliosUltraCompressedC.woff2') format('woff2'),
-      url('HeliosUltraCompressedC.woff') format('woff'),
-      url('HeliosUltraCompressedC.ttf') format('truetype');
+  src: url($path+'HeliosUltraCompressedC.eot');
+  src: local($path+'HeliosUltraCompressedC'),
+      url($path+'HeliosUltraCompressedC.eot?#iefix') format('embedded-opentype'),
+      url($path+'HeliosUltraCompressedC.woff2') format('woff2'),
+      url($path+'HeliosUltraCompressedC.woff') format('woff'),
+      url($path+'HeliosUltraCompressedC.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
