@@ -1,27 +1,27 @@
-$path: "./ui/fonts/";
+$path: "./ui/fonts/Helios/";
 
 // 100
 
 @font-face {
   font-family: 'Helios';
-  src: url($path+'Helios/HeliosThinC.eot');
-  src: local($path+'Helios/HeliosThinC'),
-      url($path+'Helios/HeliosThinC.eot?#iefix') format('embedded-opentype'),
-      url($path+'Helios/HeliosThinC.woff2') format('woff2'),
-      url($path+'Helios/HeliosThinC.woff') format('woff'),
-      url($path+'Helios/HeliosThinC.ttf') format('truetype');
+  src: url($path+'HeliosThinC.eot');
+  src: local($path+'HeliosThinC'),
+      url($path+'HeliosThinC.eot?#iefix') format('embedded-opentype'),
+      url($path+'HeliosThinC.woff2') format('woff2'),
+      url($path+'HeliosThinC.woff') format('woff'),
+      url($path+'HeliosThinC.ttf') format('truetype');
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Helios';
-  src: url($path+'Helios/HeliosThinC-Italic.eot');
-  src: local($path+'Helios/HeliosThinC Italic'), local($path+'Helios/HeliosThinC-Italic'),
-      url($path+'Helios/HeliosThinC-Italic.eot?#iefix') format('embedded-opentype'),
-      url($path+'Helios/HeliosThinC-Italic.woff2') format('woff2'),
-      url($path+'Helios/HeliosThinC-Italic.woff') format('woff'),
-      url($path+'Helios/HeliosThinC-Italic.ttf') format('truetype');
+  src: url($path+'HeliosThinC-Italic.eot');
+  src: local($path+'HeliosThinC Italic'), local($path+'HeliosThinC-Italic'),
+      url($path+'HeliosThinC-Italic.eot?#iefix') format('embedded-opentype'),
+      url($path+'HeliosThinC-Italic.woff2') format('woff2'),
+      url($path+'HeliosThinC-Italic.woff') format('woff'),
+      url($path+'HeliosThinC-Italic.ttf') format('truetype');
   font-weight: 100;
   font-style: italic;
 }
@@ -30,24 +30,24 @@ $path: "./ui/fonts/";
 
 @font-face {
   font-family: 'HeliosExt';
-  src: url($path+'Helios/HeliosExtThinC.eot');
-  src: local($path+'Helios/HeliosExtThinC'),
-      url($path+'Helios/HeliosExtThinC.eot?#iefix') format('embedded-opentype'),
-      url($path+'Helios/HeliosExtThinC.woff2') format('woff2'),
-      url($path+'Helios/HeliosExtThinC.woff') format('woff'),
-      url($path+'Helios/HeliosExtThinC.ttf') format('truetype');
+  src: url($path+'HeliosExtThinC.eot');
+  src: local($path+'HeliosExtThinC'),
+      url($path+'HeliosExtThinC.eot?#iefix') format('embedded-opentype'),
+      url($path+'HeliosExtThinC.woff2') format('woff2'),
+      url($path+'HeliosExtThinC.woff') format('woff'),
+      url($path+'HeliosExtThinC.ttf') format('truetype');
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'HeliosExt';
-  src: url($path+'Helios/HeliosExtThinC-Italic.eot');
-  src: local($path+'Helios/HeliosExtThinC Italic'), local($path+'Helios/HeliosExtThinC-Italic'),
-      url($path+'Helios/HeliosExtThinC-Italic.eot?#iefix') format('embedded-opentype'),
-      url($path+'Helios/HeliosExtThinC-Italic.woff2') format('woff2'),
-      url($path+'Helios/HeliosExtThinC-Italic.woff') format('woff'),
-      url($path+'Helios/HeliosExtThinC-Italic.ttf') format('truetype');
+  src: url($path+'HeliosExtThinC-Italic.eot');
+  src: local($path+'HeliosExtThinC Italic'), local($path+'HeliosExtThinC-Italic'),
+      url($path+'HeliosExtThinC-Italic.eot?#iefix') format('embedded-opentype'),
+      url($path+'HeliosExtThinC-Italic.woff2') format('woff2'),
+      url($path+'HeliosExtThinC-Italic.woff') format('woff'),
+      url($path+'HeliosExtThinC-Italic.ttf') format('truetype');
   font-weight: 100;
   font-style: italic;
 }
@@ -56,24 +56,24 @@ $path: "./ui/fonts/";
 
 @font-face {
   font-family: 'HeliosCond';
-  src: url('HeliosCondThinC.eot');
-  src: local('HeliosCondThinC'),
-      url('HeliosCondThinC.eot?#iefix') format('embedded-opentype'),
-      url('HeliosCondThinC.woff2') format('woff2'),
-      url('HeliosCondThinC.woff') format('woff'),
-      url('HeliosCondThinC.ttf') format('truetype');
+  src: url($path+'HeliosCondThinC.eot');
+  src: local($path+'HeliosCondThinC'),
+      url($path+'HeliosCondThinC.eot?#iefix') format('embedded-opentype'),
+      url($path+'HeliosCondThinC.woff2') format('woff2'),
+      url($path+'HeliosCondThinC.woff') format('woff'),
+      url($path+'HeliosCondThinC.ttf') format('truetype');
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
     font-family: 'HeliosCond';
-    src: url('HeliosCondThinC-Italic.eot');
-    src: local('HeliosCondThinC Italic'), local('HeliosCondThinC-Italic'),
-        url('HeliosCondThinC-Italic.eot?#iefix') format('embedded-opentype'),
-        url('HeliosCondThinC-Italic.woff2') format('woff2'),
-        url('HeliosCondThinC-Italic.woff') format('woff'),
-        url('HeliosCondThinC-Italic.ttf') format('truetype');
+    src: url($path+'HeliosCondThinC-Italic.eot');
+    src: local($path+'HeliosCondThinC Italic'), local($path+'HeliosCondThinC-Italic'),
+        url($path+'HeliosCondThinC-Italic.eot?#iefix') format('embedded-opentype'),
+        url($path+'HeliosCondThinC-Italic.woff2') format('woff2'),
+        url($path+'HeliosCondThinC-Italic.woff') format('woff'),
+        url($path+'HeliosCondThinC-Italic.ttf') format('truetype');
     font-weight: 100;
     font-style: italic;
 }
@@ -84,24 +84,24 @@ $path: "./ui/fonts/";
 
 @font-face {
   font-family: 'Helios';
-  src: url($path+'Helios/HeliosLightC.eot');
-  src: local($path+'Helios/HeliosLightC'),
-      url($path+'Helios/HeliosLightC.eot?#iefix') format('embedded-opentype'),
-      url($path+'Helios/HeliosLightC.woff2') format('woff2'),
-      url($path+'Helios/HeliosLightC.woff') format('woff'),
-      url($path+'Helios/HeliosLightC.ttf') format('truetype');
+  src: url($path+'HeliosLightC.eot');
+  src: local($path+'HeliosLightC'),
+      url($path+'HeliosLightC.eot?#iefix') format('embedded-opentype'),
+      url($path+'HeliosLightC.woff2') format('woff2'),
+      url($path+'HeliosLightC.woff') format('woff'),
+      url($path+'HeliosLightC.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Helios';
-  src: url($path+'Helios/HeliosLightC-Italic.eot');
-  src: local($path+'Helios/HeliosLightC Italic'), local($path+'Helios/HeliosLightC-Italic'),
-      url($path+'Helios/HeliosLightC-Italic.eot?#iefix') format('embedded-opentype'),
-      url($path+'Helios/HeliosLightC-Italic.woff2') format('woff2'),
-      url($path+'Helios/HeliosLightC-Italic.woff') format('woff'),
-      url($path+'Helios/HeliosLightC-Italic.ttf') format('truetype');
+  src: url($path+'HeliosLightC-Italic.eot');
+  src: local($path+'HeliosLightC Italic'), local($path+'HeliosLightC-Italic'),
+      url($path+'HeliosLightC-Italic.eot?#iefix') format('embedded-opentype'),
+      url($path+'HeliosLightC-Italic.woff2') format('woff2'),
+      url($path+'HeliosLightC-Italic.woff') format('woff'),
+      url($path+'HeliosLightC-Italic.ttf') format('truetype');
   font-weight: 300;
   font-style: italic;
 }
@@ -110,24 +110,24 @@ $path: "./ui/fonts/";
 
 @font-face {
   font-family: 'HeliosExt';
-  src: url($path+'Helios/HeliosExtLightC.eot');
-  src: local($path+'Helios/HeliosExtLightC'),
-      url($path+'Helios/HeliosExtLightC.eot?#iefix') format('embedded-opentype'),
-      url($path+'Helios/HeliosExtLightC.woff2') format('woff2'),
-      url($path+'Helios/HeliosExtLightC.woff') format('woff'),
-      url($path+'Helios/HeliosExtLightC.ttf') format('truetype');
+  src: url($path+'HeliosExtLightC.eot');
+  src: local($path+'HeliosExtLightC'),
+      url($path+'HeliosExtLightC.eot?#iefix') format('embedded-opentype'),
+      url($path+'HeliosExtLightC.woff2') format('woff2'),
+      url($path+'HeliosExtLightC.woff') format('woff'),
+      url($path+'HeliosExtLightC.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'HeliosExt';
-  src: url($path+'Helios/HeliosExtLightC-Italic.eot');
-  src: local($path+'Helios/HeliosExtLightC Italic'), local($path+'Helios/HeliosExtLightC-Italic'),
-      url($path+'Helios/HeliosExtLightC-Italic.eot?#iefix') format('embedded-opentype'),
-      url($path+'Helios/HeliosExtLightC-Italic.woff2') format('woff2'),
-      url($path+'Helios/HeliosExtLightC-Italic.woff') format('woff'),
-      url($path+'Helios/HeliosExtLightC-Italic.ttf') format('truetype');
+  src: url($path+'HeliosExtLightC-Italic.eot');
+  src: local($path+'HeliosExtLightC Italic'), local($path+'HeliosExtLightC-Italic'),
+      url($path+'HeliosExtLightC-Italic.eot?#iefix') format('embedded-opentype'),
+      url($path+'HeliosExtLightC-Italic.woff2') format('woff2'),
+      url($path+'HeliosExtLightC-Italic.woff') format('woff'),
+      url($path+'HeliosExtLightC-Italic.ttf') format('truetype');
   font-weight: 300;
   font-style: italic;
 }
@@ -136,24 +136,24 @@ $path: "./ui/fonts/";
 
 @font-face {
   font-family: 'HeliosCond';
-  src: url('HeliosCondLightC.eot');
-  src: local('HeliosCondLightC'),
-      url('HeliosCondLightC.eot?#iefix') format('embedded-opentype'),
-      url('HeliosCondLightC.woff2') format('woff2'),
-      url('HeliosCondLightC.woff') format('woff'),
-      url('HeliosCondLightC.ttf') format('truetype');
+  src: url($path+'HeliosCondLightC.eot');
+  src: local($path+'HeliosCondLightC'),
+      url($path+'HeliosCondLightC.eot?#iefix') format('embedded-opentype'),
+      url($path+'HeliosCondLightC.woff2') format('woff2'),
+      url($path+'HeliosCondLightC.woff') format('woff'),
+      url($path+'HeliosCondLightC.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
     font-family: 'HeliosCond';
-    src: url('HeliosCondLightC-Italic.eot');
-    src: local('HeliosCondLightC Italic'), local('HeliosCondLightC-Italic'),
-        url('HeliosCondLightC-Italic.eot?#iefix') format('embedded-opentype'),
-        url('HeliosCondLightC-Italic.woff2') format('woff2'),
-        url('HeliosCondLightC-Italic.woff') format('woff'),
-        url('HeliosCondLightC-Italic.ttf') format('truetype');
+    src: url($path+'HeliosCondLightC-Italic.eot');
+    src: local($path+'HeliosCondLightC Italic'), local($path+'HeliosCondLightC-Italic'),
+        url($path+'HeliosCondLightC-Italic.eot?#iefix') format('embedded-opentype'),
+        url($path+'HeliosCondLightC-Italic.woff2') format('woff2'),
+        url($path+'HeliosCondLightC-Italic.woff') format('woff'),
+        url($path+'HeliosCondLightC-Italic.ttf') format('truetype');
     font-weight: 300;
     font-style: italic;
 }
@@ -164,24 +164,24 @@ $path: "./ui/fonts/";
 
 @font-face {
   font-family: 'Helios';
-  src: url($path+'Helios/HeliosC-Italic.eot');
-  src: local($path+'Helios/HeliosC Italic'), local($path+'Helios/HeliosC-Italic'),
-      url($path+'Helios/HeliosC-Italic.eot?#iefix') format('embedded-opentype'),
-      url($path+'Helios/HeliosC-Italic.woff2') format('woff2'),
-      url($path+'Helios/HeliosC-Italic.woff') format('woff'),
-      url($path+'Helios/HeliosC-Italic.ttf') format('truetype');
+  src: url($path+'HeliosC-Italic.eot');
+  src: local($path+'HeliosC Italic'), local($path+'HeliosC-Italic'),
+      url($path+'HeliosC-Italic.eot?#iefix') format('embedded-opentype'),
+      url($path+'HeliosC-Italic.woff2') format('woff2'),
+      url($path+'HeliosC-Italic.woff') format('woff'),
+      url($path+'HeliosC-Italic.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Helios';
-  src: url($path+'Helios/HeliosC.eot');
-  src: local($path+'Helios/HeliosC'),
-      url($path+'Helios/HeliosC.eot?#iefix') format('embedded-opentype'),
-      url($path+'Helios/HeliosC.woff2') format('woff2'),
-      url($path+'Helios/HeliosC.woff') format('woff'),
-      url($path+'Helios/HeliosC.ttf') format('truetype');
+  src: url($path+'HeliosC.eot');
+  src: local($path+'HeliosC'),
+      url($path+'HeliosC.eot?#iefix') format('embedded-opentype'),
+      url($path+'HeliosC.woff2') format('woff2'),
+      url($path+'HeliosC.woff') format('woff'),
+      url($path+'HeliosC.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
@@ -190,24 +190,24 @@ $path: "./ui/fonts/";
 
 @font-face {
   font-family: 'HeliosExt';
-  src: url($path+'Helios/HeliosExtC.eot');
-  src: local($path+'Helios/HeliosExtC'),
-      url($path+'Helios/HeliosExtC.eot?#iefix') format('embedded-opentype'),
-      url($path+'Helios/HeliosExtC.woff2') format('woff2'),
-      url($path+'Helios/HeliosExtC.woff') format('woff'),
-      url($path+'Helios/HeliosExtC.ttf') format('truetype');
+  src: url($path+'HeliosExtC.eot');
+  src: local($path+'HeliosExtC'),
+      url($path+'HeliosExtC.eot?#iefix') format('embedded-opentype'),
+      url($path+'HeliosExtC.woff2') format('woff2'),
+      url($path+'HeliosExtC.woff') format('woff'),
+      url($path+'HeliosExtC.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'HeliosExt';
-  src: url($path+'Helios/HeliosExtC-Italic.eot');
-  src: local($path+'Helios/HeliosExtC Italic'), local($path+'Helios/HeliosExtC-Italic'),
-      url($path+'Helios/HeliosExtC-Italic.eot?#iefix') format('embedded-opentype'),
-      url($path+'Helios/HeliosExtC-Italic.woff2') format('woff2'),
-      url($path+'Helios/HeliosExtC-Italic.woff') format('woff'),
-      url($path+'Helios/HeliosExtC-Italic.ttf') format('truetype');
+  src: url($path+'HeliosExtC-Italic.eot');
+  src: local($path+'HeliosExtC Italic'), local($path+'HeliosExtC-Italic'),
+      url($path+'HeliosExtC-Italic.eot?#iefix') format('embedded-opentype'),
+      url($path+'HeliosExtC-Italic.woff2') format('woff2'),
+      url($path+'HeliosExtC-Italic.woff') format('woff'),
+      url($path+'HeliosExtC-Italic.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
 }
@@ -216,24 +216,24 @@ $path: "./ui/fonts/";
 
 @font-face {
   font-family: 'HeliosCond';
-  src: url('HeliosCondC.eot');
-  src: local('HeliosCondC'),
-      url('HeliosCondC.eot?#iefix') format('embedded-opentype'),
-      url('HeliosCondC.woff2') format('woff2'),
-      url('HeliosCondC.woff') format('woff'),
-      url('HeliosCondC.ttf') format('truetype');
+  src: url($path+'HeliosCondC.eot');
+  src: local($path+'HeliosCondC'),
+      url($path+'HeliosCondC.eot?#iefix') format('embedded-opentype'),
+      url($path+'HeliosCondC.woff2') format('woff2'),
+      url($path+'HeliosCondC.woff') format('woff'),
+      url($path+'HeliosCondC.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'HeliosCond';
-  src: url('HeliosCondC-Italic.eot');
-  src: local('HeliosCondC Italic'), local('HeliosCondC-Italic'),
-      url('HeliosCondC-Italic.eot?#iefix') format('embedded-opentype'),
-      url('HeliosCondC-Italic.woff2') format('woff2'),
-      url('HeliosCondC-Italic.woff') format('woff'),
-      url('HeliosCondC-Italic.ttf') format('truetype');
+  src: url($path+'HeliosCondC-Italic.eot');
+  src: local($path+'HeliosCondC Italic'), local($path+'HeliosCondC-Italic'),
+      url($path+'HeliosCondC-Italic.eot?#iefix') format('embedded-opentype'),
+      url($path+'HeliosCondC-Italic.woff2') format('woff2'),
+      url($path+'HeliosCondC-Italic.woff') format('woff'),
+      url($path+'HeliosCondC-Italic.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
 }
@@ -244,24 +244,24 @@ $path: "./ui/fonts/";
 
 @font-face {
   font-family: 'Helios';
-  src: url($path+'Helios/HeliosC-Bold.eot');
-  src: local($path+'Helios/HeliosC Bold'), local($path+'Helios/HeliosC-Bold'),
-      url($path+'Helios/HeliosC-Bold.eot?#iefix') format('embedded-opentype'),
-      url($path+'Helios/HeliosC-Bold.woff2') format('woff2'),
-      url($path+'Helios/HeliosC-Bold.woff') format('woff'),
-      url($path+'Helios/HeliosC-Bold.ttf') format('truetype');
+  src: url($path+'HeliosC-Bold.eot');
+  src: local($path+'HeliosC Bold'), local($path+'HeliosC-Bold'),
+      url($path+'HeliosC-Bold.eot?#iefix') format('embedded-opentype'),
+      url($path+'HeliosC-Bold.woff2') format('woff2'),
+      url($path+'HeliosC-Bold.woff') format('woff'),
+      url($path+'HeliosC-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Helios';
-  src: url($path+'Helios/HeliosC-BoldItalic.eot');
-  src: local($path+'Helios/HeliosC Bold Italic'), local($path+'Helios/HeliosC-BoldItalic'),
-      url($path+'Helios/HeliosC-BoldItalic.eot?#iefix') format('embedded-opentype'),
-      url($path+'Helios/HeliosC-BoldItalic.woff2') format('woff2'),
-      url($path+'Helios/HeliosC-BoldItalic.woff') format('woff'),
-      url($path+'Helios/HeliosC-BoldItalic.ttf') format('truetype');
+  src: url($path+'HeliosC-BoldItalic.eot');
+  src: local($path+'HeliosC Bold Italic'), local($path+'HeliosC-BoldItalic'),
+      url($path+'HeliosC-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url($path+'HeliosC-BoldItalic.woff2') format('woff2'),
+      url($path+'HeliosC-BoldItalic.woff') format('woff'),
+      url($path+'HeliosC-BoldItalic.ttf') format('truetype');
   font-weight: 700;
   font-style: italic;
 }
@@ -270,24 +270,24 @@ $path: "./ui/fonts/";
 
 @font-face {
   font-family: 'HeliosExt';
-  src: url($path+'Helios/HeliosExtC-Bold.eot');
-  src: local($path+'Helios/HeliosExtC Bold'), local($path+'Helios/HeliosExtC-Bold'),
-      url($path+'Helios/HeliosExtC-Bold.eot?#iefix') format('embedded-opentype'),
-      url($path+'Helios/HeliosExtC-Bold.woff2') format('woff2'),
-      url($path+'Helios/HeliosExtC-Bold.woff') format('woff'),
-      url($path+'Helios/HeliosExtC-Bold.ttf') format('truetype');
+  src: url($path+'HeliosExtC-Bold.eot');
+  src: local($path+'HeliosExtC Bold'), local($path+'HeliosExtC-Bold'),
+      url($path+'HeliosExtC-Bold.eot?#iefix') format('embedded-opentype'),
+      url($path+'HeliosExtC-Bold.woff2') format('woff2'),
+      url($path+'HeliosExtC-Bold.woff') format('woff'),
+      url($path+'HeliosExtC-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'HeliosExt';
-  src: url($path+'Helios/HeliosExtC-BoldItalic.eot');
-  src: local($path+'Helios/HeliosExtC Bold Italic'), local($path+'Helios/HeliosExtC-BoldItalic'),
-      url($path+'Helios/HeliosExtC-BoldItalic.eot?#iefix') format('embedded-opentype'),
-      url($path+'Helios/HeliosExtC-BoldItalic.woff2') format('woff2'),
-      url($path+'Helios/HeliosExtC-BoldItalic.woff') format('woff'),
-      url($path+'Helios/HeliosExtC-BoldItalic.ttf') format('truetype');
+  src: url($path+'HeliosExtC-BoldItalic.eot');
+  src: local($path+'HeliosExtC Bold Italic'), local($path+'HeliosExtC-BoldItalic'),
+      url($path+'HeliosExtC-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url($path+'HeliosExtC-BoldItalic.woff2') format('woff2'),
+      url($path+'HeliosExtC-BoldItalic.woff') format('woff'),
+      url($path+'HeliosExtC-BoldItalic.ttf') format('truetype');
   font-weight: 700;
   font-style: italic;
 }
@@ -296,24 +296,24 @@ $path: "./ui/fonts/";
 
 @font-face {
   font-family: 'HeliosCond';
-  src: url('HeliosCondC-Bold.eot');
-  src: local('HeliosCondC Bold'), local('HeliosCondC-Bold'),
-      url('HeliosCondC-Bold.eot?#iefix') format('embedded-opentype'),
-      url('HeliosCondC-Bold.woff2') format('woff2'),
-      url('HeliosCondC-Bold.woff') format('woff'),
-      url('HeliosCondC-Bold.ttf') format('truetype');
+  src: url($path+'HeliosCondC-Bold.eot');
+  src: local($path+'HeliosCondC Bold'), local($path+'HeliosCondC-Bold'),
+      url($path+'HeliosCondC-Bold.eot?#iefix') format('embedded-opentype'),
+      url($path+'HeliosCondC-Bold.woff2') format('woff2'),
+      url($path+'HeliosCondC-Bold.woff') format('woff'),
+      url($path+'HeliosCondC-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
     font-family: 'HeliosCond';
-    src: url('HeliosCondC-BoldItalic.eot');
-    src: local('HeliosCondC Bold Italic'), local('HeliosCondC-BoldItalic'),
-        url('HeliosCondC-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('HeliosCondC-BoldItalic.woff2') format('woff2'),
-        url('HeliosCondC-BoldItalic.woff') format('woff'),
-        url('HeliosCondC-BoldItalic.ttf') format('truetype');
+    src: url($path+'HeliosCondC-BoldItalic.eot');
+    src: local($path+'HeliosCondC Bold Italic'), local($path+'HeliosCondC-BoldItalic'),
+        url($path+'HeliosCondC-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url($path+'HeliosCondC-BoldItalic.woff2') format('woff2'),
+        url($path+'HeliosCondC-BoldItalic.woff') format('woff'),
+        url($path+'HeliosCondC-BoldItalic.ttf') format('truetype');
     font-weight: 700;
     font-style: italic;
 }
@@ -324,24 +324,24 @@ $path: "./ui/fonts/";
 
 @font-face {
   font-family: 'Helios';
-  src: url($path+'Helios/HeliosBlackC.eot');
-  src: local($path+'Helios/HeliosBlackC'),
-      url($path+'Helios/HeliosBlackC.eot?#iefix') format('embedded-opentype'),
-      url($path+'Helios/HeliosBlackC.woff2') format('woff2'),
-      url($path+'Helios/HeliosBlackC.woff') format('woff'),
-      url($path+'Helios/HeliosBlackC.ttf') format('truetype');
+  src: url($path+'HeliosBlackC.eot');
+  src: local($path+'HeliosBlackC'),
+      url($path+'HeliosBlackC.eot?#iefix') format('embedded-opentype'),
+      url($path+'HeliosBlackC.woff2') format('woff2'),
+      url($path+'HeliosBlackC.woff') format('woff'),
+      url($path+'HeliosBlackC.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Helios';
-  src: url($path+'Helios/HeliosBlackC-Italic.eot');
-  src: local($path+'Helios/HeliosBlackC Italic'), local($path+'Helios/HeliosBlackC-Italic'),
-      url($path+'Helios/HeliosBlackC-Italic.eot?#iefix') format('embedded-opentype'),
-      url($path+'Helios/HeliosBlackC-Italic.woff2') format('woff2'),
-      url($path+'Helios/HeliosBlackC-Italic.woff') format('woff'),
-      url($path+'Helios/HeliosBlackC-Italic.ttf') format('truetype');
+  src: url($path+'HeliosBlackC-Italic.eot');
+  src: local($path+'HeliosBlackC Italic'), local($path+'HeliosBlackC-Italic'),
+      url($path+'HeliosBlackC-Italic.eot?#iefix') format('embedded-opentype'),
+      url($path+'HeliosBlackC-Italic.woff2') format('woff2'),
+      url($path+'HeliosBlackC-Italic.woff') format('woff'),
+      url($path+'HeliosBlackC-Italic.ttf') format('truetype');
   font-weight: 900;
   font-style: italic;
 }
@@ -350,24 +350,24 @@ $path: "./ui/fonts/";
 
 @font-face {
   font-family: 'HeliosExt';
-  src: url($path+'Helios/HeliosExtBlackC.eot');
-  src: local($path+'Helios/HeliosExtBlackC'),
-      url($path+'Helios/HeliosExtBlackC.eot?#iefix') format('embedded-opentype'),
-      url($path+'Helios/HeliosExtBlackC.woff2') format('woff2'),
-      url($path+'Helios/HeliosExtBlackC.woff') format('woff'),
-      url($path+'Helios/HeliosExtBlackC.ttf') format('truetype');
+  src: url($path+'HeliosExtBlackC.eot');
+  src: local($path+'HeliosExtBlackC'),
+      url($path+'HeliosExtBlackC.eot?#iefix') format('embedded-opentype'),
+      url($path+'HeliosExtBlackC.woff2') format('woff2'),
+      url($path+'HeliosExtBlackC.woff') format('woff'),
+      url($path+'HeliosExtBlackC.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'HeliosExt';
-  src: url($path+'Helios/HeliosExtBlackC-Italic.eot');
-  src: local($path+'Helios/HeliosExtBlackC Italic'), local($path+'Helios/HeliosExtBlackC-Italic'),
-      url($path+'Helios/HeliosExtBlackC-Italic.eot?#iefix') format('embedded-opentype'),
-      url($path+'Helios/HeliosExtBlackC-Italic.woff2') format('woff2'),
-      url($path+'Helios/HeliosExtBlackC-Italic.woff') format('woff'),
-      url($path+'Helios/HeliosExtBlackC-Italic.ttf') format('truetype');
+  src: url($path+'HeliosExtBlackC-Italic.eot');
+  src: local($path+'HeliosExtBlackC Italic'), local($path+'HeliosExtBlackC-Italic'),
+      url($path+'HeliosExtBlackC-Italic.eot?#iefix') format('embedded-opentype'),
+      url($path+'HeliosExtBlackC-Italic.woff2') format('woff2'),
+      url($path+'HeliosExtBlackC-Italic.woff') format('woff'),
+      url($path+'HeliosExtBlackC-Italic.ttf') format('truetype');
   font-weight: 900;
   font-style: italic;
 }
@@ -376,24 +376,24 @@ $path: "./ui/fonts/";
 
 @font-face {
   font-family: 'HeliosCond';
-  src: url('HeliosCondBlackC.eot');
-  src: local('HeliosCondBlackC'),
-      url('HeliosCondBlackC.eot?#iefix') format('embedded-opentype'),
-      url('HeliosCondBlackC.woff2') format('woff2'),
-      url('HeliosCondBlackC.woff') format('woff'),
-      url('HeliosCondBlackC.ttf') format('truetype');
+  src: url($path+'HeliosCondBlackC.eot');
+  src: local($path+'HeliosCondBlackC'),
+      url($path+'HeliosCondBlackC.eot?#iefix') format('embedded-opentype'),
+      url($path+'HeliosCondBlackC.woff2') format('woff2'),
+      url($path+'HeliosCondBlackC.woff') format('woff'),
+      url($path+'HeliosCondBlackC.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'HeliosCond';
-  src: url('HeliosCondBlackC-Italic.eot');
-  src: local('HeliosCondBlackC Italic'), local('HeliosCondBlackC-Italic'),
-      url('HeliosCondBlackC-Italic.eot?#iefix') format('embedded-opentype'),
-      url('HeliosCondBlackC-Italic.woff2') format('woff2'),
-      url('HeliosCondBlackC-Italic.woff') format('woff'),
-      url('HeliosCondBlackC-Italic.ttf') format('truetype');
+  src: url($path+'HeliosCondBlackC-Italic.eot');
+  src: local($path+'HeliosCondBlackC Italic'), local($path+'HeliosCondBlackC-Italic'),
+      url($path+'HeliosCondBlackC-Italic.eot?#iefix') format('embedded-opentype'),
+      url($path+'HeliosCondBlackC-Italic.woff2') format('woff2'),
+      url($path+'HeliosCondBlackC-Italic.woff') format('woff'),
+      url($path+'HeliosCondBlackC-Italic.ttf') format('truetype');
   font-weight: 900;
   font-style: italic;
 }
