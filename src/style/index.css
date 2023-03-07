@@ -147,6 +147,20 @@ html {
   font-style: italic;
 }
 @font-face {
+  font-family: "HeliosCompressed";
+  src: url("HeliosCompressedC.eot");
+  src: local("HeliosCompressedC"), url("HeliosCompressedC.eot?#iefix") format("embedded-opentype"), url("HeliosCompressedC.woff2") format("woff2"), url("HeliosCompressedC.woff") format("woff"), url("HeliosCompressedC.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HeliosUltraCompressed";
+  src: url("HeliosUltraCompressedC.eot");
+  src: local("HeliosUltraCompressedC"), url("HeliosUltraCompressedC.eot?#iefix") format("embedded-opentype"), url("HeliosUltraCompressedC.woff2") format("woff2"), url("HeliosUltraCompressedC.woff") format("woff"), url("HeliosUltraCompressedC.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
   font-family: "Helios";
   src: url("./ui/fonts/Helios/HeliosC-Bold.eot");
   src: local("./ui/fonts/Helios/HeliosC Bold"), local("./ui/fonts/Helios/HeliosC-Bold"), url("./ui/fonts/Helios/HeliosC-Bold.eot?#iefix") format("embedded-opentype"), url("./ui/fonts/Helios/HeliosC-Bold.woff2") format("woff2"), url("./ui/fonts/Helios/HeliosC-Bold.woff") format("woff"), url("./ui/fonts/Helios/HeliosC-Bold.ttf") format("truetype");
