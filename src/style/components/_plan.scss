@@ -23,8 +23,8 @@ section.plan{
               display: grid;
               place-items: center;
               font-size: 2rem;
-              color: var(--main);
-              border: .0625rem solid var(--main);
+              color: $text;
+              border: .0625rem solid $text;
               border-radius: 50%;
             }
           }
@@ -37,7 +37,7 @@ section.plan{
         .num{
           font-size: 7.5rem;
           font-weight: 700;
-          color: var(--main);
+          color: $text;
         }
       }
       &.right{

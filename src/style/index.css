@@ -9,10 +9,6 @@ html {
 }
 
 :root {
-  --main: #0055ff;
-}
-
-:root {
   --wrapper-padding: 5rem;
   --wrapper-max-width: calc(90rem + var(--wrapper-padding));
 }
@@ -24,8 +20,218 @@ html {
   margin-right: auto;
 }
 
+@font-face {
+  font-family: "Helios";
+  src: url("./ui/fonts/Helios/HeliosThinC.eot");
+  src: local("./ui/fonts/Helios/HeliosThinC"), url("./ui/fonts/Helios/HeliosThinC.eot?#iefix") format("embedded-opentype"), url("./ui/fonts/Helios/HeliosThinC.woff2") format("woff2"), url("./ui/fonts/Helios/HeliosThinC.woff") format("woff"), url("./ui/fonts/Helios/HeliosThinC.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Helios";
+  src: url("./ui/fonts/Helios/HeliosThinC-Italic.eot");
+  src: local("./ui/fonts/Helios/HeliosThinC Italic"), local("./ui/fonts/Helios/HeliosThinC-Italic"), url("./ui/fonts/Helios/HeliosThinC-Italic.eot?#iefix") format("embedded-opentype"), url("./ui/fonts/Helios/HeliosThinC-Italic.woff2") format("woff2"), url("./ui/fonts/Helios/HeliosThinC-Italic.woff") format("woff"), url("./ui/fonts/Helios/HeliosThinC-Italic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "HeliosExt";
+  src: url("./ui/fonts/Helios/HeliosExtThinC.eot");
+  src: local("./ui/fonts/Helios/HeliosExtThinC"), url("./ui/fonts/Helios/HeliosExtThinC.eot?#iefix") format("embedded-opentype"), url("./ui/fonts/Helios/HeliosExtThinC.woff2") format("woff2"), url("./ui/fonts/Helios/HeliosExtThinC.woff") format("woff"), url("./ui/fonts/Helios/HeliosExtThinC.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HeliosExt";
+  src: url("./ui/fonts/Helios/HeliosExtThinC-Italic.eot");
+  src: local("./ui/fonts/Helios/HeliosExtThinC Italic"), local("./ui/fonts/Helios/HeliosExtThinC-Italic"), url("./ui/fonts/Helios/HeliosExtThinC-Italic.eot?#iefix") format("embedded-opentype"), url("./ui/fonts/Helios/HeliosExtThinC-Italic.woff2") format("woff2"), url("./ui/fonts/Helios/HeliosExtThinC-Italic.woff") format("woff"), url("./ui/fonts/Helios/HeliosExtThinC-Italic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "HeliosCond";
+  src: url("HeliosCondThinC.eot");
+  src: local("HeliosCondThinC"), url("HeliosCondThinC.eot?#iefix") format("embedded-opentype"), url("HeliosCondThinC.woff2") format("woff2"), url("HeliosCondThinC.woff") format("woff"), url("HeliosCondThinC.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HeliosCond";
+  src: url("HeliosCondThinC-Italic.eot");
+  src: local("HeliosCondThinC Italic"), local("HeliosCondThinC-Italic"), url("HeliosCondThinC-Italic.eot?#iefix") format("embedded-opentype"), url("HeliosCondThinC-Italic.woff2") format("woff2"), url("HeliosCondThinC-Italic.woff") format("woff"), url("HeliosCondThinC-Italic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Helios";
+  src: url("./ui/fonts/Helios/HeliosLightC.eot");
+  src: local("./ui/fonts/Helios/HeliosLightC"), url("./ui/fonts/Helios/HeliosLightC.eot?#iefix") format("embedded-opentype"), url("./ui/fonts/Helios/HeliosLightC.woff2") format("woff2"), url("./ui/fonts/Helios/HeliosLightC.woff") format("woff"), url("./ui/fonts/Helios/HeliosLightC.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Helios";
+  src: url("./ui/fonts/Helios/HeliosLightC-Italic.eot");
+  src: local("./ui/fonts/Helios/HeliosLightC Italic"), local("./ui/fonts/Helios/HeliosLightC-Italic"), url("./ui/fonts/Helios/HeliosLightC-Italic.eot?#iefix") format("embedded-opentype"), url("./ui/fonts/Helios/HeliosLightC-Italic.woff2") format("woff2"), url("./ui/fonts/Helios/HeliosLightC-Italic.woff") format("woff"), url("./ui/fonts/Helios/HeliosLightC-Italic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "HeliosExt";
+  src: url("./ui/fonts/Helios/HeliosExtLightC.eot");
+  src: local("./ui/fonts/Helios/HeliosExtLightC"), url("./ui/fonts/Helios/HeliosExtLightC.eot?#iefix") format("embedded-opentype"), url("./ui/fonts/Helios/HeliosExtLightC.woff2") format("woff2"), url("./ui/fonts/Helios/HeliosExtLightC.woff") format("woff"), url("./ui/fonts/Helios/HeliosExtLightC.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HeliosExt";
+  src: url("./ui/fonts/Helios/HeliosExtLightC-Italic.eot");
+  src: local("./ui/fonts/Helios/HeliosExtLightC Italic"), local("./ui/fonts/Helios/HeliosExtLightC-Italic"), url("./ui/fonts/Helios/HeliosExtLightC-Italic.eot?#iefix") format("embedded-opentype"), url("./ui/fonts/Helios/HeliosExtLightC-Italic.woff2") format("woff2"), url("./ui/fonts/Helios/HeliosExtLightC-Italic.woff") format("woff"), url("./ui/fonts/Helios/HeliosExtLightC-Italic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "HeliosCond";
+  src: url("HeliosCondLightC.eot");
+  src: local("HeliosCondLightC"), url("HeliosCondLightC.eot?#iefix") format("embedded-opentype"), url("HeliosCondLightC.woff2") format("woff2"), url("HeliosCondLightC.woff") format("woff"), url("HeliosCondLightC.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HeliosCond";
+  src: url("HeliosCondLightC-Italic.eot");
+  src: local("HeliosCondLightC Italic"), local("HeliosCondLightC-Italic"), url("HeliosCondLightC-Italic.eot?#iefix") format("embedded-opentype"), url("HeliosCondLightC-Italic.woff2") format("woff2"), url("HeliosCondLightC-Italic.woff") format("woff"), url("HeliosCondLightC-Italic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Helios";
+  src: url("./ui/fonts/Helios/HeliosC-Italic.eot");
+  src: local("./ui/fonts/Helios/HeliosC Italic"), local("./ui/fonts/Helios/HeliosC-Italic"), url("./ui/fonts/Helios/HeliosC-Italic.eot?#iefix") format("embedded-opentype"), url("./ui/fonts/Helios/HeliosC-Italic.woff2") format("woff2"), url("./ui/fonts/Helios/HeliosC-Italic.woff") format("woff"), url("./ui/fonts/Helios/HeliosC-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Helios";
+  src: url("./ui/fonts/Helios/HeliosC.eot");
+  src: local("./ui/fonts/Helios/HeliosC"), url("./ui/fonts/Helios/HeliosC.eot?#iefix") format("embedded-opentype"), url("./ui/fonts/Helios/HeliosC.woff2") format("woff2"), url("./ui/fonts/Helios/HeliosC.woff") format("woff"), url("./ui/fonts/Helios/HeliosC.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HeliosExt";
+  src: url("./ui/fonts/Helios/HeliosExtC.eot");
+  src: local("./ui/fonts/Helios/HeliosExtC"), url("./ui/fonts/Helios/HeliosExtC.eot?#iefix") format("embedded-opentype"), url("./ui/fonts/Helios/HeliosExtC.woff2") format("woff2"), url("./ui/fonts/Helios/HeliosExtC.woff") format("woff"), url("./ui/fonts/Helios/HeliosExtC.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HeliosExt";
+  src: url("./ui/fonts/Helios/HeliosExtC-Italic.eot");
+  src: local("./ui/fonts/Helios/HeliosExtC Italic"), local("./ui/fonts/Helios/HeliosExtC-Italic"), url("./ui/fonts/Helios/HeliosExtC-Italic.eot?#iefix") format("embedded-opentype"), url("./ui/fonts/Helios/HeliosExtC-Italic.woff2") format("woff2"), url("./ui/fonts/Helios/HeliosExtC-Italic.woff") format("woff"), url("./ui/fonts/Helios/HeliosExtC-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "HeliosCond";
+  src: url("HeliosCondC.eot");
+  src: local("HeliosCondC"), url("HeliosCondC.eot?#iefix") format("embedded-opentype"), url("HeliosCondC.woff2") format("woff2"), url("HeliosCondC.woff") format("woff"), url("HeliosCondC.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HeliosCond";
+  src: url("HeliosCondC-Italic.eot");
+  src: local("HeliosCondC Italic"), local("HeliosCondC-Italic"), url("HeliosCondC-Italic.eot?#iefix") format("embedded-opentype"), url("HeliosCondC-Italic.woff2") format("woff2"), url("HeliosCondC-Italic.woff") format("woff"), url("HeliosCondC-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Helios";
+  src: url("./ui/fonts/Helios/HeliosC-Bold.eot");
+  src: local("./ui/fonts/Helios/HeliosC Bold"), local("./ui/fonts/Helios/HeliosC-Bold"), url("./ui/fonts/Helios/HeliosC-Bold.eot?#iefix") format("embedded-opentype"), url("./ui/fonts/Helios/HeliosC-Bold.woff2") format("woff2"), url("./ui/fonts/Helios/HeliosC-Bold.woff") format("woff"), url("./ui/fonts/Helios/HeliosC-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Helios";
+  src: url("./ui/fonts/Helios/HeliosC-BoldItalic.eot");
+  src: local("./ui/fonts/Helios/HeliosC Bold Italic"), local("./ui/fonts/Helios/HeliosC-BoldItalic"), url("./ui/fonts/Helios/HeliosC-BoldItalic.eot?#iefix") format("embedded-opentype"), url("./ui/fonts/Helios/HeliosC-BoldItalic.woff2") format("woff2"), url("./ui/fonts/Helios/HeliosC-BoldItalic.woff") format("woff"), url("./ui/fonts/Helios/HeliosC-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "HeliosExt";
+  src: url("./ui/fonts/Helios/HeliosExtC-Bold.eot");
+  src: local("./ui/fonts/Helios/HeliosExtC Bold"), local("./ui/fonts/Helios/HeliosExtC-Bold"), url("./ui/fonts/Helios/HeliosExtC-Bold.eot?#iefix") format("embedded-opentype"), url("./ui/fonts/Helios/HeliosExtC-Bold.woff2") format("woff2"), url("./ui/fonts/Helios/HeliosExtC-Bold.woff") format("woff"), url("./ui/fonts/Helios/HeliosExtC-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HeliosExt";
+  src: url("./ui/fonts/Helios/HeliosExtC-BoldItalic.eot");
+  src: local("./ui/fonts/Helios/HeliosExtC Bold Italic"), local("./ui/fonts/Helios/HeliosExtC-BoldItalic"), url("./ui/fonts/Helios/HeliosExtC-BoldItalic.eot?#iefix") format("embedded-opentype"), url("./ui/fonts/Helios/HeliosExtC-BoldItalic.woff2") format("woff2"), url("./ui/fonts/Helios/HeliosExtC-BoldItalic.woff") format("woff"), url("./ui/fonts/Helios/HeliosExtC-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "HeliosCond";
+  src: url("HeliosCondC-Bold.eot");
+  src: local("HeliosCondC Bold"), local("HeliosCondC-Bold"), url("HeliosCondC-Bold.eot?#iefix") format("embedded-opentype"), url("HeliosCondC-Bold.woff2") format("woff2"), url("HeliosCondC-Bold.woff") format("woff"), url("HeliosCondC-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HeliosCond";
+  src: url("HeliosCondC-BoldItalic.eot");
+  src: local("HeliosCondC Bold Italic"), local("HeliosCondC-BoldItalic"), url("HeliosCondC-BoldItalic.eot?#iefix") format("embedded-opentype"), url("HeliosCondC-BoldItalic.woff2") format("woff2"), url("HeliosCondC-BoldItalic.woff") format("woff"), url("HeliosCondC-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Helios";
+  src: url("./ui/fonts/Helios/HeliosBlackC.eot");
+  src: local("./ui/fonts/Helios/HeliosBlackC"), url("./ui/fonts/Helios/HeliosBlackC.eot?#iefix") format("embedded-opentype"), url("./ui/fonts/Helios/HeliosBlackC.woff2") format("woff2"), url("./ui/fonts/Helios/HeliosBlackC.woff") format("woff"), url("./ui/fonts/Helios/HeliosBlackC.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Helios";
+  src: url("./ui/fonts/Helios/HeliosBlackC-Italic.eot");
+  src: local("./ui/fonts/Helios/HeliosBlackC Italic"), local("./ui/fonts/Helios/HeliosBlackC-Italic"), url("./ui/fonts/Helios/HeliosBlackC-Italic.eot?#iefix") format("embedded-opentype"), url("./ui/fonts/Helios/HeliosBlackC-Italic.woff2") format("woff2"), url("./ui/fonts/Helios/HeliosBlackC-Italic.woff") format("woff"), url("./ui/fonts/Helios/HeliosBlackC-Italic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "HeliosExt";
+  src: url("./ui/fonts/Helios/HeliosExtBlackC.eot");
+  src: local("./ui/fonts/Helios/HeliosExtBlackC"), url("./ui/fonts/Helios/HeliosExtBlackC.eot?#iefix") format("embedded-opentype"), url("./ui/fonts/Helios/HeliosExtBlackC.woff2") format("woff2"), url("./ui/fonts/Helios/HeliosExtBlackC.woff") format("woff"), url("./ui/fonts/Helios/HeliosExtBlackC.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HeliosExt";
+  src: url("./ui/fonts/Helios/HeliosExtBlackC-Italic.eot");
+  src: local("./ui/fonts/Helios/HeliosExtBlackC Italic"), local("./ui/fonts/Helios/HeliosExtBlackC-Italic"), url("./ui/fonts/Helios/HeliosExtBlackC-Italic.eot?#iefix") format("embedded-opentype"), url("./ui/fonts/Helios/HeliosExtBlackC-Italic.woff2") format("woff2"), url("./ui/fonts/Helios/HeliosExtBlackC-Italic.woff") format("woff"), url("./ui/fonts/Helios/HeliosExtBlackC-Italic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "HeliosCond";
+  src: url("HeliosCondBlackC.eot");
+  src: local("HeliosCondBlackC"), url("HeliosCondBlackC.eot?#iefix") format("embedded-opentype"), url("HeliosCondBlackC.woff2") format("woff2"), url("HeliosCondBlackC.woff") format("woff"), url("HeliosCondBlackC.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HeliosCond";
+  src: url("HeliosCondBlackC-Italic.eot");
+  src: local("HeliosCondBlackC Italic"), local("HeliosCondBlackC-Italic"), url("HeliosCondBlackC-Italic.eot?#iefix") format("embedded-opentype"), url("HeliosCondBlackC-Italic.woff2") format("woff2"), url("HeliosCondBlackC-Italic.woff") format("woff"), url("HeliosCondBlackC-Italic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
 body, input, button {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Helios";
 }
 
 ul {
@@ -65,6 +271,7 @@ header {
 }
 header a {
   color: #fff;
+  font-weight: 300;
 }
 header nav ul {
   display: flex;
@@ -72,7 +279,7 @@ header nav ul {
 }
 
 section.hero {
-  background: var(--main);
+  background: linear-gradient(120deg, #402EFE, #402EFE 6.25%, #3F34FE 6.25%, #3F34FE 12.5%, #3E3AFE 12.5%, #3E3AFE 18.75%, #3D40FE 18.75%, #3D40FE 25%, #3D46FE 25%, #3D46FE 31.25%, #3C4CFE 31.25%, #3C4CFE 37.5%, #3B52FE 37.5%, #3B52FE 43.75%, #3A58FE 43.75%, #3A58FE 50%, #395EFF 50%, #395EFF 56.25%, #3864FF 56.25%, #3864FF 62.5%, #376AFF 62.5%, #376AFF 68.75%, #3670FF 68.75%, #3670FF 75%, #3676FF 75%, #3676FF 81.25%, #357CFF 81.25%, #357CFF 87.5%, #3482FF 87.5%, #3482FF 93.75%, #3388FF 93.75%, #3388FF);
   color: #fff;
 }
 section.hero .wrapper {
@@ -93,6 +300,7 @@ section.hero .wrapper .cont h1 {
 }
 section.hero .wrapper .cont p {
   max-width: 29rem;
+  font-weight: 300;
 }
 
 section.plan .grid {
@@ -122,8 +330,8 @@ section.plan .grid .grid-item.left ul li .num {
   display: grid;
   place-items: center;
   font-size: 2rem;
-  color: var(--main);
-  border: 0.0625rem solid var(--main);
+  color: #395EFF;
+  border: 0.0625rem solid #395EFF;
   border-radius: 50%;
 }
 section.plan .grid .grid-item.center {
@@ -134,7 +342,7 @@ section.plan .grid .grid-item.center {
 section.plan .grid .grid-item.center .num {
   font-size: 7.5rem;
   font-weight: 700;
-  color: var(--main);
+  color: #395EFF;
 }
 section.plan .grid .grid-item.right div {
   text-align: center;
@@ -162,8 +370,8 @@ section.qa ul li .question {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: lightgrey;
-  padding: 1.5rem;
+  background: #D9D9D9;
+  padding: 1.75rem;
   border-radius: 0.5rem;
 }
 section.qa ul li .question .sign {
@@ -187,11 +395,12 @@ section.qa ul li .question .sign::after {
 }
 section.qa ul li .answer {
   overflow: hidden;
-  line-height: 1.4;
+  line-height: 1.5;
+  background: #F7F7F7;
   border: 0.0625rem solid lightgrey;
   border-top: 0.5rem solid lightgrey;
   border-radius: 0 0 0.5rem 0.5rem;
-  padding: 1.5rem;
+  padding: 1.75rem;
   margin-top: -0.5rem;
 }
 
@@ -220,7 +429,7 @@ section.signup form .row .input-cont {
 }
 
 footer {
-  background: var(--main);
+  background: linear-gradient(120deg, #402EFE, #402EFE 6.25%, #3F34FE 6.25%, #3F34FE 12.5%, #3E3AFE 12.5%, #3E3AFE 18.75%, #3D40FE 18.75%, #3D40FE 25%, #3D46FE 25%, #3D46FE 31.25%, #3C4CFE 31.25%, #3C4CFE 37.5%, #3B52FE 37.5%, #3B52FE 43.75%, #3A58FE 43.75%, #3A58FE 50%, #395EFF 50%, #395EFF 56.25%, #3864FF 56.25%, #3864FF 62.5%, #376AFF 62.5%, #376AFF 68.75%, #3670FF 68.75%, #3670FF 75%, #3676FF 75%, #3676FF 81.25%, #357CFF 81.25%, #357CFF 87.5%, #3482FF 87.5%, #3482FF 93.75%, #3388FF 93.75%, #3388FF);
   color: #fff;
 }
 footer a {
@@ -229,7 +438,7 @@ footer a {
 footer ul.grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  gap: 2rem;
 }
 footer ul.grid li.left {
   overflow: hidden;
@@ -242,26 +451,27 @@ footer ul.grid li.left iframe {
   height: 100%;
   border: none;
 }
-footer ul.grid li.center .about {
+footer ul.grid li.center {
   display: flex;
   flex-flow: column;
   justify-content: center;
   gap: 1.5rem;
 }
-footer ul.grid li.center .about div {
+footer ul.grid li.center .item {
   text-align: center;
 }
-footer ul.grid li.center .about .flex-cont {
+footer ul.grid li.center .item p {
+  text-align: center;
+  font-weight: 300;
+}
+footer ul.grid li.center .item.flex-cont {
   display: flex;
   justify-content: space-between;
 }
-footer ul.grid li.center .about .flex-cont .links {
+footer ul.grid li.center .item.flex-cont .links {
   display: flex;
   justify-content: center;
   gap: 0.25rem;
-}
-footer ul.grid li.center p {
-  text-align: center;
 }
 footer ul.grid li.center .email {
   text-decoration: underline;

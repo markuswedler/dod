@@ -1,5 +1,5 @@
 section.hero{
-  background: var(--main);
+  background: $bg;
   color: #fff;
   .wrapper{
     min-height: 100vh;
@@ -17,6 +17,7 @@ section.hero{
       }
       p{
         max-width: 29rem;
+        font-weight: 300;
       }
     }
   }

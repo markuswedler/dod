@@ -10,40 +10,38 @@ const Footer = () => {
             <iframe src="https://yandex.com/map-widget/v1/?ll=131.895853%2C43.024252&mode=whatshere&whatshere%5Bpoint%5D=131.894398%2C43.024317&whatshere%5Bzoom%5D=15&z=15" allowFullScreen={true}></iframe>
           </li>
           <li className="center">
-            <div className="about">
-              <div>
-                <h4>Адрес</h4>
-                <p>690922, Приморский край, г.&nbsp;Владивосток, о.&nbsp;Русский, п.&nbsp;Аякс,&nbsp;10</p>
-              </div>
-              <div>
-                <h4>Телефон</h4>
-                <a href="tel:8(423)265-24-29">8 (423) 265-24-29</a>
-              </div>
-              <div>
-                <h4>Почта</h4>
-                <a className="email" href="mailto:rectorat@dvfu.ru">rectorat@dvfu.ru</a>
-              </div>
-              <div className="flex-cont">
-                <div>
-                  <h4>Социальные сети</h4>
-                  <div className="links">
-                    <a href="/">XX</a>
-                    <a href="/">XX</a>
-                    <a href="/">X</a>
-                  </div>
-                </div>
-                <div>
-                  <h4>Чат-бот в Telegram</h4>
-                  <div className="links">
-                    <a href="/">XX</a>
-                  </div>
+            <div className="item">
+              <h4>Адрес</h4>
+              <p>690922, Приморский край, г.&nbsp;Владивосток, о.&nbsp;Русский, п.&nbsp;Аякс,&nbsp;10</p>
+            </div>
+            <div className="item">
+              <h4>Телефон</h4>
+              <a href="tel:8(423)265-24-29">8 (423) 265-24-29</a>
+            </div>
+            <div className="item">
+              <h4>Почта</h4>
+              <a className="email" href="mailto:rectorat@dvfu.ru">rectorat@dvfu.ru</a>
+            </div>
+            <div className="item flex-cont">
+              <div className="item">
+                <h4>Социальные сети</h4>
+                <div className="links">
+                  <a href="/">XX</a>
+                  <a href="/">XX</a>
+                  <a href="/">X</a>
                 </div>
               </div>
-              <div>
-                <h4>Режим работы</h4>
-                <p>Пн-Пт: 09:00-18:00</p>
-                <p>Сб-Вс: выходные</p>
+              <div className="item">
+                <h4>Чат-бот в Telegram</h4>
+                <div className="links">
+                  <a href="/">XX</a>
+                </div>
               </div>
+            </div>
+            <div className="item">
+              <h4>Режим работы</h4>
+              <p>Пн-Пт: 09:00-18:00</p>
+              <p>Сб-Вс: выходные</p>
             </div>
           </li>
           <li className="right"></li>

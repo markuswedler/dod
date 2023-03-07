@@ -1,11 +1,11 @@
 footer{
-  background: var(--main);
+  background: $bg;
   color: #fff;
   a{ color: #fff; }
   ul.grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
+    gap: 2rem;
     li{
       &.left{
         overflow: hidden;
@@ -19,15 +19,17 @@ footer{
         }
       }
       &.center{
-        .about{
-          display: flex;
-          flex-flow: column;
-          justify-content: center;
-          gap: 1.5rem;
-          div{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        gap: 1.5rem;
+        .item{
+          text-align: center;
+          p{
             text-align: center;
+            font-weight: 300;
           }
-          .flex-cont{
+          &.flex-cont{
             display: flex;
             justify-content: space-between;
             .links{
@@ -36,9 +38,6 @@ footer{
               gap: .25rem;
             }
           }
-        }
-        p{
-          text-align: center;
         }
         .email{
           text-decoration: underline;

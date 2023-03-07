@@ -22,14 +22,14 @@ const QA = () => {
       <ul>
         { questions.map((question, i) => (
             <li className={questionsStates[i]? "" : "hidden"} key={i}>
-              <div className="question" onClick={()=>{
+              <h3 className="question" onClick={()=>{
                 let tmp = [...questionsStates]
                 tmp[i] = !tmp[i]
                 setQuestionsStates(tmp)
               }}>
                 { question }
                 <div className="sign"/>
-              </div>
+              </h3>
               <div className="answer">{ answers[i] }</div>
             </li>
         )) }
