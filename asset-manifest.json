@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dod/static/css/main.73b3b5f9.css",
+    "main.css": "/dod/static/css/main.7aeafc8d.css",
     "main.js": "/dod/static/js/main.2ba2cdf5.js",
     "static/media/HeliosC-Italic.eot": "/dod/static/media/HeliosC-Italic.85e87f7f204ccabe3469.eot",
     "static/media/HeliosC-BoldItalic.eot": "/dod/static/media/HeliosC-BoldItalic.eb7b754f6ba704c7f41e.eot",
@@ -55,13 +55,17 @@
     "static/media/HeliosBlackC.ttf": "/dod/static/media/HeliosBlackC.bd8918c6f94d99172d92.ttf",
     "static/media/HeliosExtC-Bold.eot": "/dod/static/media/HeliosExtC-Bold.5ebca5517caf507ddab6.eot",
     "static/media/HeliosExtC.ttf": "/dod/static/media/HeliosExtC.46ba0cdad55fada06e42.ttf",
+    "static/media/HeliosUltraCompressedC.eot": "/dod/static/media/HeliosUltraCompressedC.73e1b6442ceebd87d6cc.eot",
     "static/media/HeliosExtLightC.eot": "/dod/static/media/HeliosExtLightC.205e18620e1e95b547ae.eot",
     "static/media/HeliosExtC-Bold.ttf": "/dod/static/media/HeliosExtC-Bold.8a60329eada8acea41b4.ttf",
     "static/media/HeliosCondC-Bold.eot": "/dod/static/media/HeliosCondC-Bold.cd0046d5c09fe4cf1534.eot",
     "static/media/HeliosExtLightC.ttf": "/dod/static/media/HeliosExtLightC.aaef88e10265e59a01d9.ttf",
+    "static/media/HeliosUltraCompressedC.ttf": "/dod/static/media/HeliosUltraCompressedC.8a9c77fae89aed1cac8b.ttf",
     "static/media/HeliosCondBlackC.eot": "/dod/static/media/HeliosCondBlackC.6b195b6bd16f1c9f6607.eot",
     "static/media/HeliosCondC-Bold.ttf": "/dod/static/media/HeliosCondC-Bold.79e20ba8a6a9cd6ca3dc.ttf",
     "static/media/HeliosCondBlackC.ttf": "/dod/static/media/HeliosCondBlackC.77795ac87a74b1d93906.ttf",
+    "static/media/HeliosCompressedC.eot": "/dod/static/media/HeliosCompressedC.8d9cffa0640a3aa4f863.eot",
+    "static/media/HeliosCompressedC.ttf": "/dod/static/media/HeliosCompressedC.93cd2f338d2fc1bc9874.ttf",
     "static/media/HeliosThinC-Italic.woff": "/dod/static/media/HeliosThinC-Italic.cf85faeca81658490795.woff",
     "static/media/HeliosExtThinC-Italic.woff": "/dod/static/media/HeliosExtThinC-Italic.474e12b28794b91795f7.woff",
     "static/media/HeliosCondThinC-Italic.woff": "/dod/static/media/HeliosCondThinC-Italic.74c49931f0502d52ecd9.woff",
@@ -92,6 +96,8 @@
     "static/media/HeliosLightC.woff": "/dod/static/media/HeliosLightC.b332c6657712abb8f367.woff",
     "static/media/HeliosCondBlackC.woff": "/dod/static/media/HeliosCondBlackC.0d4baee749ed0e8f0e78.woff",
     "static/media/HeliosCondC-Bold.woff": "/dod/static/media/HeliosCondC-Bold.ec7f78bdf7a38f19e0dc.woff",
+    "static/media/HeliosUltraCompressedC.woff": "/dod/static/media/HeliosUltraCompressedC.6722473503bb5841c9f3.woff",
+    "static/media/HeliosCompressedC.woff": "/dod/static/media/HeliosCompressedC.f3ad5823c2b2811cc65e.woff",
     "static/media/HeliosThinC-Italic.woff2": "/dod/static/media/HeliosThinC-Italic.012641dc7d5b9af9c5d6.woff2",
     "static/media/HeliosCondThinC-Italic.woff2": "/dod/static/media/HeliosCondThinC-Italic.d155cbae0977772ba0b7.woff2",
     "static/media/HeliosExtThinC-Italic.woff2": "/dod/static/media/HeliosExtThinC-Italic.d0af7d0989b593a720d3.woff2",
@@ -122,12 +128,14 @@
     "static/media/HeliosExtC.woff2": "/dod/static/media/HeliosExtC.d0e85f12c7195aaaafa1.woff2",
     "static/media/HeliosCondBlackC.woff2": "/dod/static/media/HeliosCondBlackC.6bfa96e430a8740054a4.woff2",
     "static/media/HeliosCondC-Bold.woff2": "/dod/static/media/HeliosCondC-Bold.59a1589b6acc00d16778.woff2",
+    "static/media/HeliosUltraCompressedC.woff2": "/dod/static/media/HeliosUltraCompressedC.b84402615de5c68a533d.woff2",
+    "static/media/HeliosCompressedC.woff2": "/dod/static/media/HeliosCompressedC.7fd041e1a5a0fd0ac9f8.woff2",
     "index.html": "/dod/index.html",
-    "main.73b3b5f9.css.map": "/dod/static/css/main.73b3b5f9.css.map",
+    "main.7aeafc8d.css.map": "/dod/static/css/main.7aeafc8d.css.map",
     "main.2ba2cdf5.js.map": "/dod/static/js/main.2ba2cdf5.js.map"
   },
   "entrypoints": [
-    "static/css/main.73b3b5f9.css",
+    "static/css/main.7aeafc8d.css",
     "static/js/main.2ba2cdf5.js"
   ]
 }
