@@ -44,7 +44,9 @@ const Footer = () => {
               <p>Сб-Вс: выходные</p>
             </div>
           </li>
-          <li className="right"></li>
+          <li className="right">
+            <a target="_blank" href="https://kraizemli.ru/vtour/dvfu/index.php">3D-тур по кампусу</a>
+          </li>
         </ul>
       </div>
     </footer>

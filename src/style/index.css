@@ -267,7 +267,7 @@ h1 {
   display: block;
   background: lightgray;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 700;
   border: none;
   border-radius: 0.5rem;
   padding: 1rem 3rem;
@@ -457,6 +457,7 @@ footer ul.grid {
 footer ul.grid li.left {
   overflow: hidden;
   position: relative;
+  background: #aaa;
 }
 footer ul.grid li.left iframe {
   position: relative;
@@ -491,5 +492,18 @@ footer ul.grid li.center .email {
   text-decoration: underline;
 }
 footer ul.grid li.right {
+  position: relative;
   background: #aaa;
+  background-image: url("/public/assets/images/3D_Tour.jpg");
+  background-size: cover;
+  background-position: center;
+}
+footer ul.grid li.right a {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: rgba(0, 0, 0, 0.5568627451);
+  font-weight: 700;
+  font-size: 1.5rem;
 }/*# sourceMappingURL=index.css.map */

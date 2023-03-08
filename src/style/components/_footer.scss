@@ -10,6 +10,7 @@ footer{
       &.left{
         overflow: hidden;
         position: relative;
+        background: $neutral;
         iframe{
           position: relative;
           width: 100%;
@@ -44,7 +45,20 @@ footer{
         }
       }
       &.right{
-        background: #aaa;
+        position: relative;
+        background: $neutral;
+        background-image: url("/public/assets/images/3D_Tour.jpg");
+        background-size: cover;
+        background-position: center;
+        a{
+          position: absolute;
+          inset: 0;
+          display: grid;
+          place-items: center;
+          background: #0000008e;
+          font-weight: 700;
+          font-size: 1.5rem;
+        }
       }
     }
   }
