@@ -18,6 +18,10 @@ const Header = () => {
           <li><a href="/">X</a></li>
         </ul>
       </nav>
+      <div className="menuBtn">
+        <input type="checkbox" id="menuBtn" />
+        <label htmlFor="menuBtn" />
+      </div>
     </header>
   )
 }
