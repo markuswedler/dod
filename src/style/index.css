@@ -9,8 +9,12 @@ html {
 }
 
 :root {
-  --wrapper-padding: 5rem;
   --wrapper-max-width: calc(90rem + var(--wrapper-padding));
+}
+@media (max-width: 425px) {
+  :root {
+    --wrapper-padding: 2rem;
+  }
 }
 
 .wrapper {
@@ -297,8 +301,8 @@ section.hero {
   color: #fff;
 }
 section.hero .wrapper {
-  min-height: 100vh;
-  min-height: 100dvh;
+  min-height: 98vh;
+  min-height: 98dvh;
   display: flex;
   flex-flow: column;
   justify-content: center;

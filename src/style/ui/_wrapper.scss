@@ -1,5 +1,7 @@
 :root{
-  --wrapper-padding: 5rem;
+  @media (max-width: 425px){
+    --wrapper-padding: 2rem;
+  }
   --wrapper-max-width: calc(90rem + var(--wrapper-padding));
 }
 
