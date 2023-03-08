@@ -451,7 +451,7 @@ footer a {
 }
 footer ul.grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
   gap: 2rem;
 }
 footer ul.grid li.left {
