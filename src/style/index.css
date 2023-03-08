@@ -496,8 +496,12 @@ footer ul.grid li.right {
   position: relative;
   background: #aaa;
   background-image: url("/public/assets/images/3D_Tour.jpg");
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
+  transition: 0.5s;
+}
+footer ul.grid li.right:hover {
+  background-size: 110%;
 }
 footer ul.grid li.right a {
   position: absolute;

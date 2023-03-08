@@ -49,8 +49,12 @@ footer{
         position: relative;
         background: $neutral;
         background-image: url("/public/assets/images/3D_Tour.jpg");
-        background-size: cover;
+        background-size: 100%;
         background-position: center;
+        transition: .5s;
+        &:hover{
+          background-size: 110%;
+        }
         a{
           position: absolute;
           inset: 0;
