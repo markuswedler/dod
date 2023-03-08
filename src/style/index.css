@@ -492,6 +492,7 @@ footer ul.grid li.center .email {
   text-decoration: underline;
 }
 footer ul.grid li.right {
+  min-height: 20rem;
   position: relative;
   background: #aaa;
   background-image: url("/public/assets/images/3D_Tour.jpg");

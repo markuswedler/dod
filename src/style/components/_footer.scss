@@ -45,6 +45,7 @@ footer{
         }
       }
       &.right{
+        min-height: 20rem;
         position: relative;
         background: $neutral;
         background-image: url("/public/assets/images/3D_Tour.jpg");
