@@ -370,7 +370,6 @@ section.hero {
 }
 section.hero .wrapper {
   min-height: 98vh;
-  min-height: 98dvh;
   display: flex;
   flex-flow: column;
   justify-content: center;
