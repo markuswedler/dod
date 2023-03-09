@@ -1,13 +1,19 @@
+import { useState } from "react"
+
 const Header = () => {
+  const [menu, setMenu] = useState(false)
+
   return (
     <header>
       <div className="wrapper">
-        <a className="logo" href="/"></a>
+        <a  className={menu? "logo black": "logo"} href="/"></a>
         <div className="menuBtn">
-          <input type="checkbox" id="menuBtn" />
+          <input type="checkbox" id="menuBtn" onChange={(e)=>{
+            setMenu(e.target.checked)
+          }} />
           <label htmlFor="menuBtn" />
         </div>
-        <nav>
+        <nav className={menu? "": "hidden"}>
           <ul>
             <li><a href="#">Главная</a></li>
             <li><a href="#plan">Программа мероприятий</a></li>
