@@ -285,8 +285,8 @@ h1 {
 header {
   position: absolute;
   width: 100%;
-  left: 50%;
-  transform: translateX(-50%);
+}
+header .wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -294,7 +294,7 @@ header {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
-header .logo {
+header .wrapper .logo {
   width: 10rem;
   height: 10rem;
   background: url("/public/assets/images/logo.png");
@@ -302,54 +302,71 @@ header .logo {
   background-position: center;
   background-repeat: no-repeat;
 }
-header nav {
+header .wrapper nav {
   display: flex;
   align-items: center;
 }
 @media (max-width: 768px) {
-  header nav {
+  header .wrapper nav {
     display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    flex-flow: column;
+    background: #fff;
   }
 }
-header nav ul {
+header .wrapper nav ul {
   display: flex;
 }
-header nav ul a {
+@media (max-width: 768px) {
+  header .wrapper nav ul {
+    flex-flow: column;
+  }
+}
+header .wrapper nav ul li a {
   color: #fff;
   font-weight: 300;
   white-space: nowrap;
 }
-header .menuBtn {
+@media (max-width: 768px) {
+  header .wrapper nav ul li a {
+    color: #000;
+  }
+}
+header .wrapper .menuBtn {
   position: relative;
   width: 3rem;
   height: 3rem;
 }
 @media (min-width: 768px) {
-  header .menuBtn {
+  header .wrapper .menuBtn {
     display: none;
   }
 }
-header .menuBtn * {
+header .wrapper .menuBtn * {
   position: absolute;
   width: 100%;
   height: 100%;
 }
-header .menuBtn #menuBtn {
+header .wrapper .menuBtn #menuBtn {
   visibility: hidden;
 }
-header .menuBtn #menuBtn:checked + label::before {
+header .wrapper .menuBtn #menuBtn:checked + label::before {
   transform: rotate(-45deg);
 }
-header .menuBtn #menuBtn:checked + label::after {
+header .wrapper .menuBtn #menuBtn:checked + label::after {
   transform: rotate(45deg);
 }
-header .menuBtn label {
+header .wrapper .menuBtn label {
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-header .menuBtn label::before, header .menuBtn label::after {
+header .wrapper .menuBtn label::before, header .wrapper .menuBtn label::after {
   content: "";
   position: absolute;
   height: 0.125rem;
@@ -357,10 +374,10 @@ header .menuBtn label::before, header .menuBtn label::after {
   background: #fff;
   transition: 0.15s;
 }
-header .menuBtn label::before {
+header .wrapper .menuBtn label::before {
   transform: translateY(-0.3rem);
 }
-header .menuBtn label::after {
+header .wrapper .menuBtn label::after {
   transform: translateY(0.3rem);
 }
 
