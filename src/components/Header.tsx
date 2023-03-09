@@ -1,13 +1,18 @@
-import { useRef, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 
 const Header = () => {
   const [menu, setMenu] = useState(false)
   const menuBtn = useRef<any>()
 
-  const closeMenu = () => {
-    menuBtn.current.checked = false
-    setMenu(false)
-  }
+  useEffect(()=>{
+    if(menu){
+      document.body.style.overflow = "hidden"
+    }
+    else{
+      menuBtn.current.checked = false
+      document.body.style.overflow = "unset"
+    }
+  }, [menu])
 
   return (
     <header>
@@ -19,10 +24,10 @@ const Header = () => {
         </div>
         <nav className={menu? "": "hidden"}>
           <ul>
-            <li><a href="#" onClick={closeMenu}>Главная</a></li>
-            <li><a href="#plan" onClick={closeMenu}>Программа мероприятий</a></li>
-            <li><a href="#qa" onClick={closeMenu}>Задать вопрос</a></li>
-            <li><a href="#contact" onClick={closeMenu}>Контакты</a></li>
+            <li><a href="#" onClick={()=>{setMenu(false)}}>Главная</a></li>
+            <li><a href="#plan" onClick={()=>{setMenu(false)}}>Программа мероприятий</a></li>
+            <li><a href="#qa" onClick={()=>{setMenu(false)}}>Задать вопрос</a></li>
+            <li><a href="#contact" onClick={()=>{setMenu(false)}}>Контакты</a></li>
           </ul>
           <ul>
             <li><a href="/">X</a></li>
