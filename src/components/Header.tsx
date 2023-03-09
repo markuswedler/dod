@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <header className="wrapper">
-      <a className="logo" href="/">LOGO</a>
+      <a className="logo" href="/"></a>
       <nav>
         <ul>
           <li><a href="#">Главная</a></li>

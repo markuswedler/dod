@@ -4,14 +4,25 @@ header{
   left: 50%;
   transform: translateX(-50%);
   display: flex;
+  align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding-top: 2rem !important;
-  padding-bottom: 2rem !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  .logo{
+    width: 10rem;
+    height: 10rem;
+    background: url('/public/assets/images/logo.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
   nav{
     @media (max-width: 768px){
       display: none;
     }
+    display: flex;
+    align-items: center;
     ul{
       display: flex;
       // gap: 1rem;
@@ -28,8 +39,8 @@ header{
       display: none;
     }
     position: relative;
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     *{
       position: absolute;
       width: 100%;
@@ -50,6 +61,7 @@ header{
       }
     }
     label{
+      cursor: pointer;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -57,15 +69,15 @@ header{
         content: '';
         position: absolute;
         height: .125rem;
-        width: 75%;
+        width: 60%;
         background: #fff;
         transition: .15s;
       }
       &::before{
-        transform: translateY(-0.25rem);
+        transform: translateY(-0.3rem);
       }
       &::after{
-        transform: translateY(0.25rem);
+        transform: translateY(0.3rem);
       }
     }
   }
