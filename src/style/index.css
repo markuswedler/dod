@@ -487,11 +487,10 @@ section.qa ul li .answer {
   overflow: hidden;
   line-height: 1.5;
   background: #F7F7F7;
-  border: 0.0625rem solid lightgrey;
-  border-top: 0.5rem solid lightgrey;
+  border: 0.0625rem solid #D9D9D9;
+  border-top: none;
   border-radius: 0 0 0.5rem 0.5rem;
   padding: 1.75rem;
-  margin-top: -0.5rem;
 }
 
 section.signup {
