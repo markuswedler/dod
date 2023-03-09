@@ -31,8 +31,9 @@ footer{
             font-weight: 300;
           }
           &.flex-cont{
-            display: flex;
-            justify-content: space-between;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(10rem, 100%), 1fr));
+            gap: 1rem;
             .links{
               display: flex;
               justify-content: center;

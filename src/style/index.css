@@ -557,8 +557,9 @@ footer ul.grid li.center .item p {
   font-weight: 300;
 }
 footer ul.grid li.center .item.flex-cont {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(10rem, 100%), 1fr));
+  gap: 1rem;
 }
 footer ul.grid li.center .item.flex-cont .links {
   display: flex;
