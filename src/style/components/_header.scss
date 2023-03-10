@@ -130,6 +130,9 @@ header{
           gap: 1rem;
           li{
             a{
+              @media (max-width: 1023px){
+                filter: invert(1);
+              }
               display: block;
               width: 2rem;
               height: 2rem;

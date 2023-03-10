@@ -430,6 +430,11 @@ header .wrapper nav ul:nth-child(3) li a {
   background-position: center;
   background-repeat: no-repeat;
 }
+@media (max-width: 1023px) {
+  header .wrapper nav ul:nth-child(3) li a {
+    filter: invert(1);
+  }
+}
 header .wrapper nav ul:nth-child(3) li a.vk {
   background-image: url("/public/assets/images/logos/vk.svg");
 }
