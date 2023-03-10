@@ -11,12 +11,12 @@ html {
 :root {
   --wrapper-max-width: calc(90rem + var(--wrapper-padding));
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   :root {
     --wrapper-padding: 2rem;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   :root {
     --wrapper-padding: 5rem;
   }
@@ -289,12 +289,17 @@ header {
 header .wrapper {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 1rem;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
+@media (max-width: 1023px) {
+  header .wrapper {
+    justify-content: space-between;
+  }
+}
 header .wrapper .logo {
+  flex-shrink: 0;
   position: relative;
   z-index: 1000;
   width: 10rem;
@@ -314,7 +319,7 @@ header .wrapper .menuBtn {
   width: 3rem;
   height: 3rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   header .wrapper .menuBtn {
     display: none;
   }
@@ -360,7 +365,7 @@ header .wrapper nav {
   display: flex;
   align-items: center;
 }
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   header .wrapper nav {
     gap: 2rem;
     position: fixed;
@@ -379,15 +384,27 @@ header .wrapper nav {
     opacity: 0;
   }
 }
+@media (min-width: 1024px) {
+  header .wrapper nav {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
 header .wrapper nav ul {
   display: flex;
 }
-@media (max-width: 768px) {
-  header .wrapper nav ul {
-    gap: 1rem;
-  }
+@media (max-width: 1023px) {
   header .wrapper nav ul:nth-child(1) {
+    display: none;
+  }
+  header .wrapper nav ul:nth-child(2) {
+    gap: 1rem;
     flex-flow: column;
+  }
+}
+@media (min-width: 1024px) {
+  header .wrapper nav ul:nth-child(2) {
+    gap: 2rem;
   }
 }
 header .wrapper nav ul li a {
@@ -395,7 +412,7 @@ header .wrapper nav ul li a {
   font-weight: 300;
   white-space: nowrap;
 }
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   header .wrapper nav ul li a {
     color: #000;
     font-size: 1.5rem;

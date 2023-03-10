@@ -23,6 +23,7 @@ const Header = () => {
           <label htmlFor="menuBtn" />
         </div>
         <nav className={menu? "": "hidden"}>
+          <ul></ul>
           <ul>
             <li><a href="#" onClick={()=>{setMenu(false)}}>Главная</a></li>
             <li><a href="#plan" onClick={()=>{setMenu(false)}}>Программа мероприятий</a></li>

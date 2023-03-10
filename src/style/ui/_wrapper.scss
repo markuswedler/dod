@@ -1,8 +1,8 @@
 :root{
-  @media (max-width: 768px){
+  @media (max-width: 1024px){
     --wrapper-padding: 2rem;
   }
-  @media (min-width: 768px){
+  @media (min-width: 1024px){
     --wrapper-padding: 5rem;
   }
   --wrapper-max-width: calc(90rem + var(--wrapper-padding));
