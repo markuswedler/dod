@@ -31,10 +31,10 @@ const Header = () => {
             <li><a href="#contact" onClick={()=>{setMenu(false)}}>Контакты</a></li>
           </ul>
           <ul>
-            <li><a href="/" className="vk" /></li>
-            <li><a href="/" className="tg" /></li>
-            <li><a href="/" className="ok" /></li>
-            <li><a href="/" className="rt" /></li>
+            <li><a target="_blank" href="https://vk.com/fefudvfu" className="vk" /></li>
+            <li><a target="_blank" href="https://t.me/fefudvfu" className="tg" /></li>
+            <li><a target="_blank" href="https://ok.ru/group/68737064632375" className="ok" /></li>
+            <li><a target="_blank" href="https://rutube.ru/channel/23787464/" className="rt" /></li>
           </ul>
         </nav>
       </div>
