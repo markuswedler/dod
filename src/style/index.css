@@ -254,7 +254,7 @@ html {
   font-style: italic;
 }
 body, input, button {
-  font-family: "Helios";
+  font-family: "Helios", sans-serif;
 }
 
 ul {
@@ -310,9 +310,6 @@ header .wrapper .logo {
   background-repeat: no-repeat;
   transition: 0.15s;
 }
-header .wrapper .logo.black {
-  filter: invert(1);
-}
 header .wrapper .menuBtn {
   position: relative;
   z-index: 1000;
@@ -330,10 +327,7 @@ header .wrapper .menuBtn * {
   height: 100%;
 }
 header .wrapper .menuBtn #menuBtn {
-  visibility: hidden;
-}
-header .wrapper .menuBtn #menuBtn:checked + label::before, header .wrapper .menuBtn #menuBtn:checked + label::after {
-  background: #000;
+  opacity: 0;
 }
 header .wrapper .menuBtn #menuBtn:checked + label::before {
   transform: rotate(-45deg);
@@ -350,16 +344,16 @@ header .wrapper .menuBtn label {
 header .wrapper .menuBtn label::before, header .wrapper .menuBtn label::after {
   content: "";
   position: absolute;
-  height: 0.125rem;
+  height: 0.1875rem;
   width: 60%;
   background: #fff;
   transition: 0.15s;
 }
 header .wrapper .menuBtn label::before {
-  transform: translateY(-0.3rem);
+  transform: translateY(-0.35rem);
 }
 header .wrapper .menuBtn label::after {
-  transform: translateY(0.3rem);
+  transform: translateY(0.35rem);
 }
 header .wrapper nav {
   display: flex;
@@ -376,10 +370,11 @@ header .wrapper nav {
     height: 100vh;
     flex-flow: column;
     justify-content: center;
-    background: #fff;
+    background: #402efe;
     transition: 0.15s;
   }
   header .wrapper nav.hidden {
+    visibility: hidden;
     pointer-events: none;
     opacity: 0;
   }
@@ -414,7 +409,6 @@ header .wrapper nav ul li a {
 }
 @media (max-width: 1023px) {
   header .wrapper nav ul li a {
-    color: #000;
     font-size: 1.5rem;
     font-weight: 700;
   }
@@ -429,11 +423,6 @@ header .wrapper nav ul:nth-child(3) li a {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-}
-@media (max-width: 1023px) {
-  header .wrapper nav ul:nth-child(3) li a {
-    filter: invert(1);
-  }
 }
 header .wrapper nav ul:nth-child(3) li a.vk {
   background-image: url("/public/assets/images/logos/vk.svg");

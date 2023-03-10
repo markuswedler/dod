@@ -21,9 +21,6 @@ header{
       background-position: center;
       background-repeat: no-repeat;
       transition: .15s;
-      &.black{
-        filter: invert(1);
-      }
     }
     .menuBtn{
       @media (min-width: 1024px){
@@ -39,13 +36,9 @@ header{
         height: 100%;
       }
       #menuBtn{
-        visibility: hidden;
-  
+        opacity: 0;
         &:checked{
           & + label{
-            &::before, &::after{
-              background: #000;
-            }
             &::before{
               transform: rotate(-45deg);
             }
@@ -63,16 +56,16 @@ header{
         &::before, &::after{
           content: '';
           position: absolute;
-          height: .125rem;
+          height: .1875rem;
           width: 60%;
           background: #fff;
           transition: .15s;
         }
         &::before{
-          transform: translateY(-0.3rem);
+          transform: translateY(-0.35rem);
         }
         &::after{
-          transform: translateY(0.3rem);
+          transform: translateY(0.35rem);
         }
       }
     }
@@ -80,6 +73,7 @@ header{
       @media (max-width: 1023px){
         gap: 2rem;
         &.hidden{
+          visibility: hidden;
           pointer-events: none;
           opacity: 0;
         }
@@ -91,7 +85,7 @@ header{
         height: 100vh;
         flex-flow: column;
         justify-content: center;
-        background: #fff;
+        background: $main_1;
         transition: .15s;
       }
       @media (min-width: 1024px){
@@ -117,7 +111,6 @@ header{
         li{
           a{
             @media (max-width: 1023px){
-              color: #000;
               font-size: 1.5rem;
               font-weight: 700;
             }
@@ -130,9 +123,6 @@ header{
           gap: 1rem;
           li{
             a{
-              @media (max-width: 1023px){
-                filter: invert(1);
-              }
               display: block;
               width: 2rem;
               height: 2rem;

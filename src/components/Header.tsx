@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <header>
       <div className="wrapper">
-        <a  className={menu? "logo black": "logo"} href="/"></a>
+        <a  className="logo" href="/"></a>
         <div className="menuBtn">
           <input ref={menuBtn} type="checkbox" id="menuBtn" onChange={(e)=>{setMenu(e.target.checked)}} />
           <label htmlFor="menuBtn" />
