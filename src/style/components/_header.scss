@@ -56,16 +56,16 @@ header{
         &::before, &::after{
           content: '';
           position: absolute;
-          height: .1875rem;
+          height: .125rem;
           width: 60%;
           background: #fff;
           transition: .15s;
         }
         &::before{
-          transform: translateY(-0.35rem);
+          transform: translateY(-0.3rem);
         }
         &::after{
-          transform: translateY(0.35rem);
+          transform: translateY(0.3rem);
         }
       }
     }

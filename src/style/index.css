@@ -344,16 +344,16 @@ header .wrapper .menuBtn label {
 header .wrapper .menuBtn label::before, header .wrapper .menuBtn label::after {
   content: "";
   position: absolute;
-  height: 0.1875rem;
+  height: 0.125rem;
   width: 60%;
   background: #fff;
   transition: 0.15s;
 }
 header .wrapper .menuBtn label::before {
-  transform: translateY(-0.35rem);
+  transform: translateY(-0.3rem);
 }
 header .wrapper .menuBtn label::after {
-  transform: translateY(0.35rem);
+  transform: translateY(0.3rem);
 }
 header .wrapper nav {
   display: flex;
