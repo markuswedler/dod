@@ -419,6 +419,29 @@ header .wrapper nav ul li a {
     font-weight: 700;
   }
 }
+header .wrapper nav ul:nth-child(3) {
+  gap: 1rem;
+}
+header .wrapper nav ul:nth-child(3) li a {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+header .wrapper nav ul:nth-child(3) li a.vk {
+  background-image: url("/public/assets/images/logos/vk.svg");
+}
+header .wrapper nav ul:nth-child(3) li a.tg {
+  background-image: url("/public/assets/images/logos/tg.svg");
+}
+header .wrapper nav ul:nth-child(3) li a.ok {
+  background-image: url("/public/assets/images/logos/ok.svg");
+}
+header .wrapper nav ul:nth-child(3) li a.rt {
+  background-image: url("/public/assets/images/logos/rt.svg");
+}
 
 section.hero {
   background: linear-gradient(120deg, #402EFE, #402EFE 6.25%, #3F34FE 6.25%, #3F34FE 12.5%, #3E3AFE 12.5%, #3E3AFE 18.75%, #3D40FE 18.75%, #3D40FE 25%, #3D46FE 25%, #3D46FE 31.25%, #3C4CFE 31.25%, #3C4CFE 37.5%, #3B52FE 37.5%, #3B52FE 43.75%, #3A58FE 43.75%, #3A58FE 50%, #395EFF 50%, #395EFF 56.25%, #3864FF 56.25%, #3864FF 62.5%, #376AFF 62.5%, #376AFF 68.75%, #3670FF 68.75%, #3670FF 75%, #3676FF 75%, #3676FF 81.25%, #357CFF 81.25%, #357CFF 87.5%, #3482FF 87.5%, #3482FF 93.75%, #3388FF 93.75%, #3388FF);
@@ -621,7 +644,28 @@ footer ul.grid li.center .item.flex-cont {
 footer ul.grid li.center .item.flex-cont .links {
   display: flex;
   justify-content: center;
-  gap: 0.25rem;
+  gap: 0.3rem;
+}
+footer ul.grid li.center .item.flex-cont .links a {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 0.3rem;
+}
+footer ul.grid li.center .item.flex-cont .links a.vk {
+  background-image: url("/public/assets/images/logos/vk.svg");
+}
+footer ul.grid li.center .item.flex-cont .links a.ok {
+  background-image: url("/public/assets/images/logos/ok.svg");
+}
+footer ul.grid li.center .item.flex-cont .links a.rt {
+  background-image: url("/public/assets/images/logos/rt.svg");
+}
+footer ul.grid li.center .item.flex-cont .links a.tg {
+  background-image: url("/public/assets/images/logos/tg.svg");
 }
 footer ul.grid li.center .email {
   text-decoration: underline;

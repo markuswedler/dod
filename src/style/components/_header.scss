@@ -126,6 +126,23 @@ header{
             white-space: nowrap;
           }
         }
+        &:nth-child(3){
+          gap: 1rem;
+          li{
+            a{
+              display: block;
+              width: 2rem;
+              height: 2rem;
+              background-size: contain;
+              background-position: center;
+              background-repeat: no-repeat;
+              &.vk{ background-image: url('/public/assets/images/logos/vk.svg'); }
+              &.tg{ background-image: url('/public/assets/images/logos/tg.svg'); }
+              &.ok{ background-image: url('/public/assets/images/logos/ok.svg'); }
+              &.rt{ background-image: url('/public/assets/images/logos/rt.svg'); }
+            }
+          }
+        }
       }
     }
   }

@@ -26,15 +26,15 @@ const Footer = () => {
               <div className="item">
                 <h4>Социальные сети</h4>
                 <div className="links">
-                  <a href="/">XX</a>
-                  <a href="/">XX</a>
-                  <a href="/">X</a>
+                  <a href="/" className="vk" />
+                  <a href="/" className="ok" />
+                  <a href="/" className="rt" />
                 </div>
               </div>
               <div className="item">
                 <h4>Чат-бот в Telegram</h4>
                 <div className="links">
-                  <a href="/">XX</a>
+                  <a href="/" className="tg" />
                 </div>
               </div>
             </div>

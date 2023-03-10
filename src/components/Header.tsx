@@ -31,10 +31,10 @@ const Header = () => {
             <li><a href="#contact" onClick={()=>{setMenu(false)}}>Контакты</a></li>
           </ul>
           <ul>
-            <li><a href="/">X</a></li>
-            <li><a href="/">X</a></li>
-            <li><a href="/">X</a></li>
-            <li><a href="/">X</a></li>
+            <li><a href="/" className="vk" /></li>
+            <li><a href="/" className="tg" /></li>
+            <li><a href="/" className="ok" /></li>
+            <li><a href="/" className="rt" /></li>
           </ul>
         </nav>
       </div>

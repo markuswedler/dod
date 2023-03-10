@@ -37,7 +37,20 @@ footer{
             .links{
               display: flex;
               justify-content: center;
-              gap: .25rem;
+              gap: .3rem;
+              a{
+                display: block;
+                width: 2rem;
+                height: 2rem;
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                margin-top: 0.3rem;
+                &.vk{ background-image: url('/public/assets/images/logos/vk.svg'); }
+                &.ok{ background-image: url('/public/assets/images/logos/ok.svg'); }
+                &.rt{ background-image: url('/public/assets/images/logos/rt.svg'); }
+                &.tg{ background-image: url('/public/assets/images/logos/tg.svg'); }
+              }
             }
           }
         }
