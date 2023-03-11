@@ -25,9 +25,9 @@ const Header = () => {
         <nav className={menu? "": "hidden"}>
           <ul></ul>
           <ul>
-            <li><a href="#" onClick={()=>{setMenu(false)}}>Главная</a></li>
+            <li><a href="/" onClick={()=>{setMenu(false)}}>Главная</a></li>
             <li><a href="#plan" onClick={()=>{setMenu(false)}}>Программа мероприятий</a></li>
-            <li><a href="#qa" onClick={()=>{setMenu(false)}}>Задать вопрос</a></li>
+            <li><a href="#qa" onClick={()=>{setMenu(false)}}>Вопросы</a></li>
             <li><a href="#contact" onClick={()=>{setMenu(false)}}>Контакты</a></li>
           </ul>
           <ul>
