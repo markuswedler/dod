@@ -18,3 +18,12 @@ html{
 @import "./components/qa";
 @import "./components/signup";
 @import "./components/footer";
+
+
+
+
+.table{
+  max-width: 100vw;
+  overflow-x: scroll;
+  border: 1px solid #000;
+}

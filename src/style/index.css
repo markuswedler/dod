@@ -283,8 +283,14 @@ h1 {
 }
 
 header {
-  position: absolute;
+  position: relative;
   width: 100%;
+}
+header .bg {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: linear-gradient(120deg, #402EFE, #402EFE 6.25%, #3F34FE 6.25%, #3F34FE 12.5%, #3E3AFE 12.5%, #3E3AFE 18.75%, #3D40FE 18.75%, #3D40FE 25%, #3D46FE 25%, #3D46FE 31.25%, #3C4CFE 31.25%, #3C4CFE 37.5%, #3B52FE 37.5%, #3B52FE 43.75%, #3A58FE 43.75%, #3A58FE 50%, #395EFF 50%, #395EFF 56.25%, #3864FF 56.25%, #3864FF 62.5%, #376AFF 62.5%, #376AFF 68.75%, #3670FF 68.75%, #3670FF 75%, #3676FF 75%, #3676FF 81.25%, #357CFF 81.25%, #357CFF 87.5%, #3482FF 87.5%, #3482FF 93.75%, #3388FF 93.75%, #3388FF);
 }
 header .wrapper {
   display: flex;
@@ -686,4 +692,10 @@ footer ul.grid li.right a {
   font-size: 1.5rem;
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
+}
+
+.table {
+  max-width: 100vw;
+  overflow-x: scroll;
+  border: 1px solid #000;
 }/*# sourceMappingURL=index.css.map */

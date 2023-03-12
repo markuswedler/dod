@@ -1,6 +1,12 @@
 header{
-  position: absolute;
+  position: relative;
   width: 100%;
+  .bg{
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: $bg;
+  }
   .wrapper{
     @media (max-width: 1023px){
       justify-content: space-between;

@@ -1,21 +1,23 @@
 import { useEffect, useRef, useState } from "react"
 
 const Header = () => {
+  const headerRef = useRef<HTMLDivElement>(null)
   const [menu, setMenu] = useState(false)
-  const menuBtn = useRef<any>()
+  const menuBtn = useRef<HTMLInputElement>(null)
 
   useEffect(()=>{
     if(menu){
       document.body.style.overflow = "hidden"
     }
     else{
-      menuBtn.current.checked = false
+      menuBtn.current!.checked = false
       document.body.style.overflow = "unset"
     }
   }, [menu])
 
   return (
-    <header>
+    <header ref={headerRef}>
+      <div className="bg" />
       <div className="wrapper">
         <a  className="logo" href="/"></a>
         <div className="menuBtn">
